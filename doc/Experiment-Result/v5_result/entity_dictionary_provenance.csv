@@ -1,0 +1,96 @@
+entity_id,canonical_name,category,source_url,verification_status,alias_count,corpus_doc_freq,corpus_total_mentions,dictionary_coverage_type,alias_sources
+R001,Marc Marquez,Rider,https://www.motogp.com/en/riders/marc-marquez,verified,4,29,159,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R002,Jorge Martin,Rider,https://www.motogp.com/en/riders/jorge-martin,verified,5,25,80,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R003,Marco Bezzecchi,Rider,https://www.motogp.com/en/riders/marco-bezzecchi,verified,5,24,99,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R004,Francesco Bagnaia,Rider,https://www.motogp.com/en/riders/francesco-bagnaia,verified,5,17,52,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R005,Alex Marquez,Rider,https://www.motogp.com/en/riders/alex-marquez,verified,3,13,54,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R006,Raul Fernandez,Rider,https://www.motogp.com/en/riders/raul-fernandez,verified,3,19,79,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R007,Ai Ogura,Rider,https://www.motogp.com/en/riders/ai-ogura,verified,3,16,53,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R008,Fabio Quartararo,Rider,https://www.motogp.com/en/riders/fabio-quartararo,verified,4,16,54,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R009,Pedro Acosta,Rider,https://www.motogp.com/en/riders/pedro-acosta,verified,4,12,30,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R010,Enea Bastianini,Rider,https://www.motogp.com/en/riders/enea-bastianini,verified,5,13,40,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R011,Fermin Aldeguer,Rider,https://www.motogp.com/en/riders/fermin-aldeguer,verified,4,9,34,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R012,Fabio Di Giannantonio,Rider,https://www.motogp.com/en/riders/fabio-di-giannantonio,verified,5,12,23,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R013,Franco Morbidelli,Rider,https://www.motogp.com/en/riders/franco-morbidelli,verified,4,7,11,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R014,Luca Marini,Rider,https://www.motogp.com/en/riders/luca-marini,verified,3,8,19,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R015,Maverick Vinales,Rider,https://www.motogp.com/en/riders/maverick-vinales,verified,4,6,12,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R016,Joan Mir,Rider,https://www.motogp.com/en/riders/joan-mir,verified,3,7,11,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R017,Johann Zarco,Rider,https://www.motogp.com/en/riders/johann-zarco,verified,3,7,10,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R018,Alex Rins,Rider,https://www.motogp.com/en/riders/alex-rins,verified,3,7,15,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R019,Brad Binder,Rider,https://www.motogp.com/en/riders/brad-binder,verified,3,5,5,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R020,Jack Miller,Rider,https://www.motogp.com/en/riders/jack-miller,verified,4,6,6,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R021,Toprak Razgatlioglu,Rider,https://www.motogp.com/en/riders/toprak-razgatlioglu,verified,6,6,8,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R022,Diogo Moreira,Rider,https://www.motogp.com/en/riders/diogo-moreira,verified,4,7,8,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R023,Pol Espargaro,Rider,https://www.motogp.com/en/riders/pol-espargaro,verified,4,4,11,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R024,Aleix Espargaro,Rider,https://www.motogp.com/en/riders/aleix-espargaro,verified,4,3,3,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R025,Lorenzo Savadori,Rider,https://www.motogp.com/en/riders/lorenzo-savadori,verified,3,2,5,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R026,Iker Lecuona,Rider,https://www.motogp.com/en/riders/iker-lecuona,verified,3,5,6,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R027,Cal Crutchlow,Rider,https://www.motogp.com/en/riders/cal-crutchlow,verified,3,2,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R028,Augusto Fernandez,Rider,https://www.motogp.com/en/riders/augusto-fernandez,verified,4,2,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R029,Mario Suryo Aji,Rider,https://www.motogp.com/en/riders/mario-aji,verified,4,4,13,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R030,Veda Ega Pratama,Rider,https://www.motogp.com/en/riders/veda-ega-pratama,verified,5,4,22,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R031,David Alonso,Rider,https://www.motogp.com/en/riders/david-alonso,verified,3,5,9,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R032,David Almansa,Rider,https://www.motogp.com/en/riders/david-almansa,verified,3,3,8,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R033,Izan Guevara,Rider,https://www.motogp.com/en/riders/izan-guevara,verified,3,5,5,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R034,Daniel Holgado,Rider,https://www.motogp.com/en/riders/daniel-holgado,verified,4,4,6,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R035,Ivan Ortola,Rider,https://www.motogp.com/en/riders/ivan-ortola,verified,3,1,3,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R036,Brian Uriarte,Rider,https://www.motogp.com/en/riders/brian-uriarte,verified,3,1,4,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R037,Valentino Rossi,Rider,https://www.motogp.com/en/riders/valentino-rossi,verified,4,7,16,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R038,Casey Stoner,Rider,https://www.motogp.com/en/riders/casey-stoner,verified,3,1,9,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R039,Jorge Lorenzo,Rider,https://www.motogp.com/en/riders/jorge-lorenzo,verified,4,2,11,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R040,Dani Pedrosa,Rider,https://www.motogp.com/en/riders/dani-pedrosa,verified,4,1,7,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R041,Andrea Dovizioso,Rider,https://www.motogp.com/en/riders/andrea-dovizioso,verified,4,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+R042,Maximo Quiles,Rider,https://www.motogp.com/en/riders/maximo-quiles,verified,4,3,4,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R043,Nicolo Bulega,Rider,https://www.motogp.com/en/riders/nicolo-bulega,verified,3,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R044,Senna Agius,Rider,https://www.motogp.com/en/riders/senna-agius,verified,3,2,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R045,Taiyo Furusato,Rider,https://www.motogp.com/en/riders/taiyo-furusato,verified,3,1,5,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R046,Alonso Lopez,Rider,https://www.motogp.com/en/riders/alonso-lopez,verified,2,1,1,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com
+R047,Adrian Fernandez,Rider,https://www.motogp.com/en/riders/adrian-fernandez,verified,2,1,2,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com
+R048,Jake Dixon,Rider,https://www.motogp.com/en/riders/jake-dixon,verified,3,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+R049,Miguel Oliveira,Rider,https://www.motogp.com/en/riders/miguel-oliveira,verified,3,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com
+R050,Somkiat Chantra,Rider,https://www.motogp.com/en/riders/somkiat-chantra,verified,3,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com
+T001,Ducati Lenovo Team,Team,https://www.motogp.com/en/teams/ducati-lenovo-team,verified,3,17,27,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+T002,Aprilia Racing,Team,https://www.motogp.com/en/teams/aprilia-racing,verified,2,13,23,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+T003,Trackhouse MotoGP Team,Team,https://www.motogp.com/en/teams/trackhouse-motogp-team,verified,9,19,65,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T004,Pertamina Enduro VR46 Racing Team,Team,https://www.motogp.com/en/teams/pertamina-enduro-vr46-racing-team,verified,8,9,26,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T005,Gresini Racing,Team,https://www.motogp.com/en/teams/gresini-racing-motogp,verified,6,13,25,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T006,Red Bull KTM Factory Racing,Team,https://www.motogp.com/en/teams/red-bull-ktm-factory-racing,verified,2,8,13,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T007,Red Bull KTM Tech3,Team,https://www.motogp.com/en/teams/red-bull-ktm-tech3,verified,4,7,21,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+T008,Monster Energy Yamaha MotoGP,Team,https://www.motogp.com/en/teams/monster-energy-yamaha-motogp,verified,4,6,12,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T009,Prima Pramac Yamaha,Team,https://www.motogp.com/en/teams/prima-pramac-yamaha-motogp,verified,5,7,14,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T010,Honda HRC Castrol,Team,https://www.motogp.com/en/teams/honda-hrc-castrol,verified,7,8,17,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+T011,LCR Honda,Team,https://www.motogp.com/en/teams/lcr-honda,verified,4,5,13,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T012,Idemitsu Honda Team Asia,Team,https://www.motogp.com/en/teams/idemitsu-honda-team-asia,verified,2,5,8,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T013,CFMoto Aspar Team,Team,https://www.motogp.com/en/teams/cfmoto-aspar-team,verified,4,4,14,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T014,Liqui Moly Dynavolt Intact GP,Team,https://www.motogp.com/en/teams/liqui-moly-dynavolt-intact-gp,verified,4,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+T015,QJMotor Frinsa MSI,Team,https://www.motogp.com/en/teams/qjmotor-frinsa-msi,verified,4,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+M001,Ducati,Manufacturer,https://www.ducati.com/ww/en/racing/motogp,verified,7,16,50,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M002,Aprilia,Manufacturer,https://www.aprilia.com/en_EN/aprilia-racing/motogp/,verified,5,15,36,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M003,Yamaha,Manufacturer,https://www.yamahamotogp.com/,verified,4,11,34,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M004,Honda,Manufacturer,https://motogp.hondaracingcorporation.com/,verified,4,10,40,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M005,KTM,Manufacturer,https://www.ktm.com/en-int/racing/motogp.html,verified,5,9,13,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M006,CFMoto,Manufacturer,https://www.cfmoto.com/,verified,3,3,44,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M007,Kalex,Manufacturer,https://www.kalex-engineering.de/,verified,2,2,4,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M008,Triumph,Manufacturer,https://www.triumphmotorcycles.co.uk/for-the-ride/racing/moto2,verified,3,1,1,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M009,Suzuki,Manufacturer,https://www.suzuki-racing.com/,verified,4,1,2,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+M010,QJMotor,Manufacturer,https://global.qjmotor.com/,verified,2,1,1,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C001,Sirkuit MotorLand Aragon,Circuit,https://www.motogp.com/en/calendar,verified,9,16,125,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C002,Sirkuit Silverstone,Circuit,https://www.motogp.com/en/calendar,verified,3,27,57,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+C003,Sirkuit Internasional Pertamina Mandalika,Circuit,https://www.motogp.com/en/calendar,verified,7,7,38,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C004,Sirkuit Internasional Sepang,Circuit,https://www.motogp.com/en/calendar,verified,5,2,3,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C005,Sirkuit Mobility Resort Motegi,Circuit,https://www.motogp.com/en/calendar,verified,5,1,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C006,Sirkuit Sachsenring,Circuit,https://www.motogp.com/en/calendar,verified,2,2,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+C007,Sirkuit Jerez,Circuit,https://www.motogp.com/en/calendar,verified,4,1,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+C008,Sirkuit Assen,Circuit,https://www.motogp.com/en/calendar,verified,4,1,1,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,https://www.motogp.com/en/calendar,verified,4,1,3,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+C010,Sirkuit Ricardo Tormo Valencia,Circuit,https://www.motogp.com/en/calendar,verified,6,2,4,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C011,Sirkuit Zandvoort,Circuit,https://www.circuitzandvoort.nl/,verified,3,2,4,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com
+C012,Sirkuit Barcelona-Catalunya,Circuit,https://www.motogp.com/en/calendar,verified,6,2,2,Corpus_60_Docs + Official_MotoGP_com + External,1_Corpus_60_Docs; 2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C013,Sirkuit Red Bull Ring Spielberg,Circuit,https://www.motogp.com/en/calendar,verified,6,1,1,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C014,Sirkuit Phillip Island,Circuit,https://www.motogp.com/en/calendar,verified,5,1,1,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C015,Sirkuit Balaton Park,Circuit,https://www.motogp.com/en/calendar,verified,5,1,2,Corpus_60_Docs + Official_MotoGP_com + External,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C016,Sirkuit Internasional Buriram,Circuit,https://www.motogp.com/en/calendar,verified,6,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C017,Sirkuit Bugatti Le Mans,Circuit,https://www.motogp.com/en/calendar,verified,6,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,https://www.motogp.com/en/calendar,verified,4,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,https://www.motogp.com/en/calendar,verified,5,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport
+C020,Sirkuit Internasional Lusail,Circuit,https://www.motogp.com/en/calendar,verified,7,0,0,Official_MotoGP_com_Grid_Calendar_Enrichment,2_Official_MotoGP_com; 3_External_Wikipedia_Crash_Motorsport

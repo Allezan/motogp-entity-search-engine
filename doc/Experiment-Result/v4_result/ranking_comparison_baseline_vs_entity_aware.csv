@@ -1,0 +1,197 @@
+query_id,query_text,rank,baseline_doc_id,baseline_title,baseline_S_text,baseline_is_relevant,proposed_doc_id,proposed_title,proposed_S_text,proposed_S_entity,proposed_S_final,proposed_is_relevant
+Q01,pecco keluhkan fisik di silverstone,1,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.4555,1,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.4555,1.0,0.5644,1
+Q01,pecco keluhkan fisik di silverstone,2,D039,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,0.2152,0,D039,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,0.2152,0.5,0.2722,0
+Q01,pecco keluhkan fisik di silverstone,3,D015,"Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu
+",0.0588,0,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0319,1.0,0.2255,1
+Q01,pecco keluhkan fisik di silverstone,4,D030,Mario Aji syukuri hasil GP Inggris,0.0513,0,D034,Jorge Martin rebut pole position MotoGP Inggris 2026,0.0181,1.0,0.2145,0
+Q01,pecco keluhkan fisik di silverstone,5,D055,Rasa Marah yang Bawa Fernandez Menangi MotoGP Inggris 2026,0.0433,0,D059,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,0.0129,1.0,0.2104,0
+Q01,pecco keluhkan fisik di silverstone,6,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.0419,0,D060,Klasemen MotoGP 2026: Jorge Martin Makin Nyaman di Puncak,0.0097,1.0,0.2077,0
+Q01,pecco keluhkan fisik di silverstone,7,D056,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,0.04,0,D037,Alex Marquez ungguli Bezzecchi untuk jadi tercepat di FP1 GP Inggris,0.0093,1.0,0.2075,0
+Q01,pecco keluhkan fisik di silverstone,8,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.0371,1,D032,Raul Fernandez tak terbendung pada MotoGP Inggris 2026,0.0064,1.0,0.2051,0
+Q01,pecco keluhkan fisik di silverstone,9,D029,Martin kian percaya diri setelah GP Inggris,0.033,0,D033,Jorge Martin juara sprint MotoGP Inggris 2026,0.0055,1.0,0.2044,0
+Q01,pecco keluhkan fisik di silverstone,10,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0319,1,D015,"Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu
+",0.0588,0.5,0.147,0
+Q02,el diablo pindah ke hrc,1,D040,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,0.3144,1,D040,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,0.3144,1.0,0.4515,1
+Q02,el diablo pindah ke hrc,2,D051,Transfer Pembalap MotoGP 2027 yang Menarik Versi Marquez,0.1405,1,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0842,1.0,0.2674,1
+Q02,el diablo pindah ke hrc,3,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.1157,1,D012,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027
+",0.0568,1.0,0.2454,1
+Q02,el diablo pindah ke hrc,4,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0842,1,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.0529,1.0,0.2423,1
+Q02,el diablo pindah ke hrc,5,D012,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027
+",0.0568,1,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.0327,1.0,0.2262,1
+Q02,el diablo pindah ke hrc,6,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.0529,1,D033,Jorge Martin juara sprint MotoGP Inggris 2026,0.0326,1.0,0.2261,0
+Q02,el diablo pindah ke hrc,7,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.0327,1,D060,Klasemen MotoGP 2026: Jorge Martin Makin Nyaman di Puncak,0.0287,1.0,0.223,0
+Q02,el diablo pindah ke hrc,8,D033,Jorge Martin juara sprint MotoGP Inggris 2026,0.0326,0,D051,Transfer Pembalap MotoGP 2027 yang Menarik Versi Marquez,0.1405,0.5,0.2124,1
+Q02,el diablo pindah ke hrc,9,D060,Klasemen MotoGP 2026: Jorge Martin Makin Nyaman di Puncak,0.0287,0,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.0,1.0,0.2,0
+Q02,el diablo pindah ke hrc,10,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0224,0,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.1157,0.5,0.1925,1
+Q03,pembalap baru tim the doctor 2027,1,D010,"Pertamina Enduro VR46 Gaet Fermin Aldeguer untuk MotoGP 2027
+",0.22,1,D010,"Pertamina Enduro VR46 Gaet Fermin Aldeguer untuk MotoGP 2027
+",0.22,1.0,0.376,1
+Q03,pembalap baru tim the doctor 2027,2,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1269,0,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0666,1.0,0.2533,1
+Q03,pembalap baru tim the doctor 2027,3,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.126,0,D059,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,0.0474,1.0,0.2379,0
+Q03,pembalap baru tim the doctor 2027,4,D020,"Enea Bastianini Resmi Gabung Trackhouse Aprilia di MotoGP 2027
+",0.1198,0,D044,"Gabung VR46 pada 2027, Fermin Aldeguer Target Tembus Lima Besar",0.0458,1.0,0.2366,1
+Q03,pembalap baru tim the doctor 2027,5,D014,"Pol Espargaro Kembali Gantikan Maverick Vinales untuk Red Bull KTM di MotoGP Aragon
+",0.1067,0,D012,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027
+",0.041,1.0,0.2328,0
+Q03,pembalap baru tim the doctor 2027,6,D048,"Tiga Destinasi ITDC Diserbu 2,49 Juta Wisatawan pada Semester I 2026",0.0902,0,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0394,1.0,0.2315,0
+Q03,pembalap baru tim the doctor 2027,7,D024,ITDC siapkan 130 shuttle bus dukung MotoGP Indonesia 2026,0.0776,0,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.0287,1.0,0.2229,0
+Q03,pembalap baru tim the doctor 2027,8,D029,Martin kian percaya diri setelah GP Inggris,0.0775,0,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1269,0.0,0.1016,0
+Q03,pembalap baru tim the doctor 2027,9,D035,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,0.0712,0,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.126,0.0,0.1008,0
+Q03,pembalap baru tim the doctor 2027,10,D027,Jorge Martin tak peduli gelar juara dunia,0.069,0,D020,"Enea Bastianini Resmi Gabung Trackhouse Aprilia di MotoGP 2027
+",0.1198,0.0,0.0959,0
+Q04,la bestia gabung tim satelit aprilia,1,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.2145,1,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.2145,1.0,0.3716,1
+Q04,la bestia gabung tim satelit aprilia,2,D020,"Enea Bastianini Resmi Gabung Trackhouse Aprilia di MotoGP 2027
+",0.1844,1,D020,"Enea Bastianini Resmi Gabung Trackhouse Aprilia di MotoGP 2027
+",0.1844,1.0,0.3475,1
+Q04,la bestia gabung tim satelit aprilia,3,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1797,1,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1797,1.0,0.3437,1
+Q04,la bestia gabung tim satelit aprilia,4,D010,"Pertamina Enduro VR46 Gaet Fermin Aldeguer untuk MotoGP 2027
+",0.1089,0,D033,Jorge Martin juara sprint MotoGP Inggris 2026,0.0378,1.0,0.2302,0
+Q04,la bestia gabung tim satelit aprilia,5,D012,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027
+",0.1032,1,D059,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,0.0102,1.0,0.2082,0
+Q04,la bestia gabung tim satelit aprilia,6,D040,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,0.1024,0,D012,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027
+",0.1032,0.5,0.1826,1
+Q04,la bestia gabung tim satelit aprilia,7,D035,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,0.0965,0,D035,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,0.0965,0.5,0.1772,0
+Q04,la bestia gabung tim satelit aprilia,8,D044,"Gabung VR46 pada 2027, Fermin Aldeguer Target Tembus Lima Besar",0.0938,0,D028,Bos Aprilia bertekad juara di kandang Marc Marquez,0.0753,0.5,0.1602,0
+Q04,la bestia gabung tim satelit aprilia,9,D028,Bos Aprilia bertekad juara di kandang Marc Marquez,0.0753,0,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.073,0.5,0.1584,1
+Q04,la bestia gabung tim satelit aprilia,10,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.073,1,D057,Sungguh Besar Hati Marco Bezzecchi di MotoGP Inggris 2026,0.0647,0.5,0.1518,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,1,D059,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,0.4816,1,D059,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,0.4816,1.0,0.5853,1
+Q05,kemenangan raul fernandez di sirkuit silverstone,2,D055,Rasa Marah yang Bawa Fernandez Menangi MotoGP Inggris 2026,0.3567,1,D055,Rasa Marah yang Bawa Fernandez Menangi MotoGP Inggris 2026,0.3567,1.0,0.4854,1
+Q05,kemenangan raul fernandez di sirkuit silverstone,3,D029,Martin kian percaya diri setelah GP Inggris,0.2428,1,D029,Martin kian percaya diri setelah GP Inggris,0.2428,1.0,0.3942,1
+Q05,kemenangan raul fernandez di sirkuit silverstone,4,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.1972,0,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.1972,1.0,0.3577,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,5,D032,Raul Fernandez tak terbendung pada MotoGP Inggris 2026,0.1679,1,D032,Raul Fernandez tak terbendung pada MotoGP Inggris 2026,0.1679,1.0,0.3343,1
+Q05,kemenangan raul fernandez di sirkuit silverstone,6,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.1669,0,D035,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,0.1512,1.0,0.3209,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,7,D039,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,0.1522,0,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.1482,1.0,0.3186,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,8,D035,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,0.1512,0,D034,Jorge Martin rebut pole position MotoGP Inggris 2026,0.129,1.0,0.3032,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,9,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.1482,0,D037,Alex Marquez ungguli Bezzecchi untuk jadi tercepat di FP1 GP Inggris,0.128,1.0,0.3024,0
+Q05,kemenangan raul fernandez di sirkuit silverstone,10,D034,Jorge Martin rebut pole position MotoGP Inggris 2026,0.129,0,D060,Klasemen MotoGP 2026: Jorge Martin Makin Nyaman di Puncak,0.1269,1.0,0.3015,1
+Q06,marc marquez tercepat fp1 motorland aragon,1,D001,Hasil FP1 MotoGP Aragon 2026: Marc Marquez Jadi yang Tercepat,0.4093,1,D001,Hasil FP1 MotoGP Aragon 2026: Marc Marquez Jadi yang Tercepat,0.4093,1.0,0.5274,1
+Q06,marc marquez tercepat fp1 motorland aragon,2,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.3339,1,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.3339,1.0,0.4671,1
+Q06,marc marquez tercepat fp1 motorland aragon,3,D028,Bos Aprilia bertekad juara di kandang Marc Marquez,0.309,0,D028,Bos Aprilia bertekad juara di kandang Marc Marquez,0.309,1.0,0.4472,0
+Q06,marc marquez tercepat fp1 motorland aragon,4,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.2701,1,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.2701,1.0,0.416,1
+Q06,marc marquez tercepat fp1 motorland aragon,5,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.2565,1,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.2565,1.0,0.4052,1
+Q06,marc marquez tercepat fp1 motorland aragon,6,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.2121,0,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.2121,1.0,0.3696,0
+Q06,marc marquez tercepat fp1 motorland aragon,7,D004,"Hasil FP1 Moto3 Aragon: Almansa Tercepat, Veda ke-20",0.198,0,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.1833,1.0,0.3467,0
+Q06,marc marquez tercepat fp1 motorland aragon,8,D053,Kritik Keras Marc Marquez ke Diri Sendiri dan Ducati,0.1851,0,D043,"Jadwal MotoGP Aragon 2026, Marc Marquez Kembali Beraksi di MotorLand",0.1628,1.0,0.3302,1
+Q06,marc marquez tercepat fp1 motorland aragon,9,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.1833,0,D015,"Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu
+",0.1328,1.0,0.3062,0
+Q06,marc marquez tercepat fp1 motorland aragon,10,D037,Alex Marquez ungguli Bezzecchi untuk jadi tercepat di FP1 GP Inggris,0.1831,0,D008,"Ai Ogura Absen di MotoGP Aragon karena Cedera Tangan
+",0.1116,1.0,0.2892,0
+Q07,komposisi pembalap ducati lenovo team 2027,1,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.2777,1,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.2777,1.0,0.4221,1
+Q07,komposisi pembalap ducati lenovo team 2027,2,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1982,1,D019,"Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse
+",0.1982,1.0,0.3586,1
+Q07,komposisi pembalap ducati lenovo team 2027,3,D053,Kritik Keras Marc Marquez ke Diri Sendiri dan Ducati,0.1455,0,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.1292,1.0,0.3034,0
+Q07,komposisi pembalap ducati lenovo team 2027,4,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.1292,0,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.118,1.0,0.2944,1
+Q07,komposisi pembalap ducati lenovo team 2027,5,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.118,1,D039,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,0.1153,1.0,0.2922,0
+Q07,komposisi pembalap ducati lenovo team 2027,6,D039,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,0.1153,0,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.1139,1.0,0.2911,0
+Q07,komposisi pembalap ducati lenovo team 2027,7,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.1139,0,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.1108,1.0,0.2886,0
+Q07,komposisi pembalap ducati lenovo team 2027,8,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.1108,0,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.0947,1.0,0.2757,0
+Q07,komposisi pembalap ducati lenovo team 2027,9,D044,"Gabung VR46 pada 2027, Fermin Aldeguer Target Tembus Lima Besar",0.1081,0,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.0944,1.0,0.2755,0
+Q07,komposisi pembalap ducati lenovo team 2027,10,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.0947,0,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.0918,1.0,0.2734,0
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,1,D024,ITDC siapkan 130 shuttle bus dukung MotoGP Indonesia 2026,0.3152,1,D024,ITDC siapkan 130 shuttle bus dukung MotoGP Indonesia 2026,0.3152,1.0,0.4521,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,2,D054,InJourney: RI Sudah Bisa Ekspor Marshal buat MotoGP Malaysia-Jepang,0.2556,1,D054,InJourney: RI Sudah Bisa Ekspor Marshal buat MotoGP Malaysia-Jepang,0.2556,1.0,0.4045,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,3,D021,Pemkab Lombok Tengah siapkan satgas akomodasi jelang MotoGP 2026,0.2444,1,D021,Pemkab Lombok Tengah siapkan satgas akomodasi jelang MotoGP 2026,0.2444,1.0,0.3956,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,4,D022,ITDC buka lowongan 2.500 relawan untuk ajang MotoGP Indonesia 2026,0.1873,1,D022,ITDC buka lowongan 2.500 relawan untuk ajang MotoGP Indonesia 2026,0.1873,1.0,0.3498,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,5,D025,InJourney menyatakan Mandalika siap sambut MotoGP 2026,0.1704,1,D025,InJourney menyatakan Mandalika siap sambut MotoGP 2026,0.1704,1.0,0.3363,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,6,D023,Kepala Bappenas: MotoGP harus diintegrasikan dengan kawasan pariwisata,0.1242,1,D023,Kepala Bappenas: MotoGP harus diintegrasikan dengan kawasan pariwisata,0.1242,1.0,0.2993,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,7,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0952,0,D048,"Tiga Destinasi ITDC Diserbu 2,49 Juta Wisatawan pada Semester I 2026",0.083,1.0,0.2664,1
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,8,D048,"Tiga Destinasi ITDC Diserbu 2,49 Juta Wisatawan pada Semester I 2026",0.083,1,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0952,0.0,0.0761,0
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,9,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.0758,0,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.0758,0.0,0.0606,0
+Q08,persiapan sirkuit mandalika jelang motogp indonesia,10,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0748,0,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0748,0.0,0.0598,0
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,1,D030,Mario Aji syukuri hasil GP Inggris,0.4137,1,D030,Mario Aji syukuri hasil GP Inggris,0.4137,0.6667,0.4643,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,2,D003,"Hasil FP1 Moto2 Aragon: Mario Aji Finis ke-27
+",0.2844,1,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.2233,1.0,0.3787,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,3,D036,Veda Ega tempati posisi keenam dalam FP1 GP Inggris,0.2513,1,D003,"Hasil FP1 Moto2 Aragon: Mario Aji Finis ke-27
+",0.2844,0.6667,0.3608,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,4,D004,"Hasil FP1 Moto3 Aragon: Almansa Tercepat, Veda ke-20",0.2437,1,D036,Veda Ega tempati posisi keenam dalam FP1 GP Inggris,0.2513,0.6667,0.3344,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,5,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.2233,1,D004,"Hasil FP1 Moto3 Aragon: Almansa Tercepat, Veda ke-20",0.2437,0.6667,0.3283,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,6,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.0847,0,D021,Pemkab Lombok Tengah siapkan satgas akomodasi jelang MotoGP 2026,0.076,0.6667,0.1942,1
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,7,D021,Pemkab Lombok Tengah siapkan satgas akomodasi jelang MotoGP 2026,0.076,1,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.0847,0.0,0.0678,0
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,8,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.0717,0,D017,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse
+",0.0717,0.0,0.0573,0
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,9,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0705,0,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0705,0.0,0.0564,0
+Q09,kiprah mario aji dan veda pratama bersama honda team asia,10,D040,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,0.0679,0,D040,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,0.0679,0.0,0.0543,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,1,D047,"4 Perbedaan Helm MotoGP dan F1, Bentuk hingga Fitur",0.7275,1,D047,"4 Perbedaan Helm MotoGP dan F1, Bentuk hingga Fitur",0.7275,0.0,0.7275,1
+Q10,perbedaan spesifikasi helm balap motogp dan f1,2,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.078,0,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.078,0.0,0.078,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,3,D056,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,0.0778,0,D056,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,0.0778,0.0,0.0778,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,4,D050,Kenapa Motor MotoGP Tidak Cocok untuk Harian? Ini Alasannya,0.0739,0,D050,Kenapa Motor MotoGP Tidak Cocok untuk Harian? Ini Alasannya,0.0739,0.0,0.0739,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,5,D005,"Marc Marquez Menasihati Pebalap F1 Isack Hadjar
+",0.0728,0,D005,"Marc Marquez Menasihati Pebalap F1 Isack Hadjar
+",0.0728,0.0,0.0728,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,6,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0666,0,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0666,0.0,0.0666,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,7,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0642,0,D009,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi
+",0.0642,0.0,0.0642,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,8,D053,Kritik Keras Marc Marquez ke Diri Sendiri dan Ducati,0.0614,0,D053,Kritik Keras Marc Marquez ke Diri Sendiri dan Ducati,0.0614,0.0,0.0614,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,9,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.0606,0,D042,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,0.0606,0.0,0.0606,0
+Q10,perbedaan spesifikasi helm balap motogp dan f1,10,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0561,0,D045,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,0.0561,0.0,0.0561,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,1,D050,Kenapa Motor MotoGP Tidak Cocok untuk Harian? Ini Alasannya,0.3526,1,D050,Kenapa Motor MotoGP Tidak Cocok untuk Harian? Ini Alasannya,0.3526,0.0,0.3526,1
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,2,D016,"CFMoto dan Ambisi China Masuk ke MotoGP
+",0.0874,0,D016,"CFMoto dan Ambisi China Masuk ke MotoGP
+",0.0874,0.0,0.0874,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,3,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.0756,0,D052,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,0.0756,0.0,0.0756,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,4,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.0748,0,D018,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",0.0748,0.0,0.0748,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,5,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.054,0,D007,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival
+",0.054,0.0,0.054,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,6,D027,Jorge Martin tak peduli gelar juara dunia,0.0537,0,D027,Jorge Martin tak peduli gelar juara dunia,0.0537,0.0,0.0537,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,7,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.0504,0,D031,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,0.0504,0.0,0.0504,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,8,D049,MotoGP 2027 bak Selembar Kertas Kosong buat Ducati,0.0495,0,D049,MotoGP 2027 bak Selembar Kertas Kosong buat Ducati,0.0495,0.0,0.0495,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,9,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0483,0,D006,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini
+",0.0483,0.0,0.0483,0
+Q11,alasan motor prototipe motogp tidak cocok untuk harian,10,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.0478,0,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.0478,0.0,0.0478,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,1,D046,Nasihat Marc Marquez untuk Isack Hadjar yang Cedera Pergelangan Tangan,0.2834,1,D046,Nasihat Marc Marquez untuk Isack Hadjar yang Cedera Pergelangan Tangan,0.2834,0.0,0.2834,1
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,2,D047,"4 Perbedaan Helm MotoGP dan F1, Bentuk hingga Fitur",0.263,0,D047,"4 Perbedaan Helm MotoGP dan F1, Bentuk hingga Fitur",0.263,0.0,0.263,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,3,D005,"Marc Marquez Menasihati Pebalap F1 Isack Hadjar
+",0.2533,1,D005,"Marc Marquez Menasihati Pebalap F1 Isack Hadjar
+",0.2533,0.0,0.2533,1
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,4,D008,"Ai Ogura Absen di MotoGP Aragon karena Cedera Tangan
+",0.1502,0,D008,"Ai Ogura Absen di MotoGP Aragon karena Cedera Tangan
+",0.1502,0.0,0.1502,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,5,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.0755,0,D038,Pecco sebut Sirkuit Silverstone menuntut fisik,0.0755,0.0,0.0755,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,6,D015,"Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu
+",0.0655,0,D015,"Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu
+",0.0655,0.0,0.0655,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,7,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.0607,0,D041,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,0.0607,0.0,0.0607,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,8,D030,Mario Aji syukuri hasil GP Inggris,0.0438,0,D030,Mario Aji syukuri hasil GP Inggris,0.0438,0.0,0.0438,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,9,D056,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,0.0394,0,D056,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,0.0394,0.0,0.0394,0
+Q12,nasihat cedera pergelangan tangan untuk pembalap f1,10,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.039,0,D002,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",0.039,0.0,0.039,0

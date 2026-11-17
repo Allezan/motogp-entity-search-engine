@@ -1,0 +1,13 @@
+query_id,query_group,query_text,detected_entities,num_relevant,relevant_doc_ids
+Q01,Entity - Alias/Nickname,pecco keluhkan fisik di silverstone,C002:Sirkuit Silverstone (Circuit); R004:Francesco Bagnaia (Rider),4,"D038, D006, D018, D042"
+Q02,Entity - Alias/Nickname,el diablo pindah ke hrc,R008:Fabio Quartararo (Rider); T010:Honda HRC Castrol (Team),7,"D040, D052, D009, D012, D017, D019, D051"
+Q03,Entity - Alias/Nickname,pembalap baru tim the doctor 2027,R037:Valentino Rossi (Rider),3,"D010, D044, D009"
+Q04,Entity - Alias/Nickname,la bestia gabung tim satelit aprilia,R010:Enea Bastianini (Rider); M002:Aprilia (Manufacturer),5,"D020, D017, D019, D009, D012"
+Q05,Entity - Canonical Multi-Entity,kemenangan raul fernandez di sirkuit silverstone,C002:Sirkuit Silverstone (Circuit); R006:Raul Fernandez (Rider),6,"D032, D055, D059, D057, D029, D060"
+Q06,Entity - Canonical Multi-Entity,marc marquez tercepat fp1 motorland aragon,C001:Sirkuit MotorLand Aragon (Circuit); R001:Marc Marquez (Rider),5,"D001, D002, D006, D007, D043"
+Q07,Entity - Canonical Team (Longest-Match),komposisi pembalap ducati lenovo team 2027,T001:Ducati Lenovo Team (Team),4,"D017, D019, D009, D051"
+Q08,Entity - Circuit & Event,persiapan sirkuit mandalika jelang motogp indonesia,C003:Sirkuit Internasional Pertamina Mandalika (Circuit),7,"D021, D022, D023, D024, D025, D048, D054"
+Q09,Entity - Indonesian Riders & Team,kiprah mario aji dan veda pratama bersama honda team asia,T012:Idemitsu Honda Team Asia (Team); R030:Veda Ega Pratama (Rider); R029:Mario Suryo Aji (Rider),6,"D003, D004, D030, D036, D021, D041"
+Q10,Non-Entity (Fallback),perbedaan spesifikasi helm balap motogp dan f1,NONE (Fallback),1,D047
+Q11,Non-Entity (Fallback),alasan motor prototipe motogp tidak cocok untuk harian,NONE (Fallback),1,D050
+Q12,Non-Entity (Fallback),nasihat cedera pergelangan tangan untuk pembalap f1,NONE (Fallback),2,"D005, D046"

@@ -1,0 +1,61 @@
+rank,doc_id,q·d,|d|,"cos(q,d)",title,media,jumlah token
+1,D008,11.1027,18.7084,0.4963,Ai Ogura Absen di MotoGP Aragon karena Cedera Tangan,Kompas,193
+2,D006,6.9197,17.6511,0.3279,"Jadwal MotoGP Aragon 2026, Rangkaian Balapan Dimulai Hari Ini",Kompas,272
+3,D007,4.7248,14.5448,0.2717,"Jadwal MotoGP Aragon 2026, Marc Marquez Kirim Sinyal Bahaya untuk Rival",Kompas,222
+4,D041,9.5613,34.1274,0.2343,Jadwal Lengkap Rangkaian Pekan Balap MotoGP Aragon 2026,Idn Times,459
+5,D028,2.3066,11.99,0.1609,Bos Aprilia bertekad juara di kandang Marc Marquez,Antara,107
+6,D042,8.5673,44.8048,0.1599,7 Pembalap MotoGP yang Pernah Menang di GP Aragon per 28 Agustus 2026,Idn Times,598
+7,D002,2.0887,14.6301,0.1194,"Marc Marquez Kuasai FP1 MotoGP Aragon, Raul Fernandez P2",Kompas,218
+8,D005,2.647,18.7889,0.1178,Marc Marquez Menasihati Pebalap F1 Isack Hadjar,Kompas,181
+9,D035,2.9656,21.9,0.1133,Trackhouse enggan bicara gelar MotoGP meski Ogura di posisi kedua,Antara,254
+10,D014,1.9771,15.4748,0.1068,Pol Espargaro Kembali Gantikan Maverick Vinales untuk Red Bull KTM di MotoGP Aragon,Kompas,153
+11,D015,2.9765,23.5502,0.1057,Marquez Ungkap Jadi Jarang Main Padel Akibat Cedera Bahu,Kompas,270
+12,D043,5.3839,44.8929,0.1003,"Jadwal MotoGP Aragon 2026, Marc Marquez Kembali Beraksi di MotorLand",Idn Times,281
+13,D046,5.2941,47.6054,0.093,Nasihat Marc Marquez untuk Isack Hadjar yang Cedera Pergelangan Tangan,Idn Times,364
+14,D033,2.3066,23.6942,0.0814,Jorge Martin juara sprint MotoGP Inggris 2026,Antara,290
+15,D060,2.3066,27.4481,0.0703,Klasemen MotoGP 2026: Jorge Martin Makin Nyaman di Puncak,Idn Times,347
+16,D001,1.6476,21.3561,0.0645,Hasil FP1 MotoGP Aragon 2026: Marc Marquez Jadi yang Tercepat,Kompas,245
+17,D019,1.9771,26.6281,0.0621,Daftar Sementara Pebalap MotoGP 2027 Usai Enea Gabung Trackhouse,Kompas,406
+18,D017,1.318,17.8483,0.0618,"Komposisi Pebalap MotoGP 2027: Rekan Baru Marc Marquez, Bastianini ke Trackhouse",Kompas,251
+19,D030,1.5414,21.5605,0.0598,Mario Aji syukuri hasil GP Inggris,Antara,153
+20,D020,1.6476,24.2884,0.0567,Enea Bastianini Resmi Gabung Trackhouse Aprilia di MotoGP 2027,Kompas,334
+21,D034,1.318,20.3305,0.0542,Jorge Martin rebut pole position MotoGP Inggris 2026,Antara,240
+22,D037,0.659,13.8715,0.0397,Alex Marquez ungguli Bezzecchi untuk jadi tercepat di FP1 GP Inggris,Antara,162
+23,D032,0.659,19.1696,0.0288,Raul Fernandez tak terbendung pada MotoGP Inggris 2026,Antara,260
+24,D004,0.659,19.939,0.0276,"Hasil FP1 Moto3 Aragon: Almansa Tercepat, Veda ke-20",Kompas,154
+25,D045,0.4412,14.1374,0.0261,Catatan Kemenangan Marquez Masih Ciamik di MotoGP Hingga 2026,Idn Times,155
+26,D009,0.659,21.4341,0.0257,"Update Pebalap MotoGP 2027, Tersisa Empat Kursi Lagi",Kompas,278
+27,D003,0.659,21.9903,0.0251,Hasil FP1 Moto2 Aragon: Mario Aji Finis ke-27,Kompas,162
+28,D057,0.4412,15.3999,0.024,Sungguh Besar Hati Marco Bezzecchi di MotoGP Inggris 2026,Idn Times,158
+29,D058,0.4412,23.9708,0.0154,Eror yang Mengubur Podium Alex Marquez di MotoGP Inggris 2026,Idn Times,342
+30,D047,0.8823,56.5839,0.013,"4 Perbedaan Helm MotoGP dan F1, Bentuk hingga Fitur",Idn Times,283
+31,D056,0.3295,22.2735,0.0124,Marco Bezzecchi Bangkit dari Momen Sulit di MotoGP Inggris 2026,Idn Times,369
+32,D010,0.0,15.558,0.0,Pertamina Enduro VR46 Gaet Fermin Aldeguer untuk MotoGP 2027,Kompas,166
+33,D011,0.0,36.7854,0.0,"[POPULER OTOMOTIF] Adu Mewah Sleeper Bus Malang-Jakarta, CFMoto dan Ambisi China Masuk ke MotoGP",Kompas,297
+34,D012,0.0,21.5954,0.0,"Resmi, Luca Marini Gabung Tech3 KTM di MotoGP 2027",Kompas,250
+35,D013,0.0,40.5475,0.0,"Modal CFMoto Naik Kelas ke MotoGP, Siap Unjuk Gigi?",Kompas,374
+36,D016,0.0,42.7844,0.0,CFMoto dan Ambisi China Masuk ke MotoGP,Kompas,383
+37,D018,0.0,32.51,0.0,"MotoGP: Cara Unik Rossi, Marquez, Bagnaia Beri Input Teknis ke Ohlins",Kompas,274
+38,D021,0.0,24.6038,0.0,Pemkab Lombok Tengah siapkan satgas akomodasi jelang MotoGP 2026,Antara,199
+39,D022,0.0,24.0283,0.0,ITDC buka lowongan 2.500 relawan untuk ajang MotoGP Indonesia 2026,Antara,208
+40,D023,0.0,20.4733,0.0,Kepala Bappenas: MotoGP harus diintegrasikan dengan kawasan pariwisata,Antara,143
+41,D024,0.0,27.6704,0.0,ITDC siapkan 130 shuttle bus dukung MotoGP Indonesia 2026,Antara,225
+42,D025,0.0,20.6937,0.0,InJourney menyatakan Mandalika siap sambut MotoGP 2026,Antara,177
+43,D026,0.0,32.7531,0.0,Rio de Janeiro jadi tuan rumah peluncuran MotoGP 2027,Antara,230
+44,D027,0.0,10.4074,0.0,Jorge Martin tak peduli gelar juara dunia,Antara,108
+45,D029,0.0,7.8929,0.0,Martin kian percaya diri setelah GP Inggris,Antara,89
+46,D031,0.0,9.8975,0.0,Marc Marquez sebut ada permasalahan dengan motornya dalam GP Inggris,Antara,128
+47,D036,0.0,17.1665,0.0,Veda Ega tempati posisi keenam dalam FP1 GP Inggris,Antara,127
+48,D038,0.0,13.5165,0.0,Pecco sebut Sirkuit Silverstone menuntut fisik,Antara,107
+49,D039,0.0,11.5723,0.0,Marc Marquez dalam kondisi fisik siap tempur di GP Inggris,Antara,117
+50,D040,0.0,14.9846,0.0,Quartararo buka negosiasi dengan sejumlah tim sebelum gabung Honda,Antara,124
+51,D044,0.0,25.3606,0.0,"Gabung VR46 pada 2027, Fermin Aldeguer Target Tembus Lima Besar",Idn Times,264
+52,D048,0.0,66.6682,0.0,"Tiga Destinasi ITDC Diserbu 2,49 Juta Wisatawan pada Semester I 2026",Idn Times,530
+53,D049,0.0,24.7558,0.0,MotoGP 2027 bak Selembar Kertas Kosong buat Ducati,Idn Times,126
+54,D050,0.0,35.2378,0.0,Kenapa Motor MotoGP Tidak Cocok untuk Harian? Ini Alasannya,Idn Times,335
+55,D051,0.0,15.7856,0.0,Transfer Pembalap MotoGP 2027 yang Menarik Versi Marquez,Idn Times,136
+56,D052,0.0,30.6789,0.0,Mengapa Fabio Quartararo Memilih Pindah ke Honda pada MotoGP 2027?,Idn Times,393
+57,D053,0.0,12.5589,0.0,Kritik Keras Marc Marquez ke Diri Sendiri dan Ducati,Idn Times,132
+58,D054,0.0,34.2659,0.0,InJourney: RI Sudah Bisa Ekspor Marshal buat MotoGP Malaysia-Jepang,Idn Times,304
+59,D055,0.0,18.3115,0.0,Rasa Marah yang Bawa Fernandez Menangi MotoGP Inggris 2026,Idn Times,134
+60,D059,0.0,29.1688,0.0,Faktor Penting Kemenangan Raul Fernandez di MotoGP Inggris 2026,Idn Times,393

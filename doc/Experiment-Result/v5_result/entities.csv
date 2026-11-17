@@ -1,0 +1,96 @@
+entity_id,canonical_name,category,description,source_url,verification_status
+R001,Marc Marquez,Rider,"Pembalap pabrikan Ducati Lenovo Team asal Cervera, Spanyol (#93), peraih gelar juara dunia delapan kali lintas kelas.",https://www.motogp.com/en/riders/marc-marquez,verified
+R002,Jorge Martin,Rider,"Pembalap utama Aprilia Racing asal Spanyol (#89) berjuluk Martinator, pemimpin klasemen MotoGP 2026 yang direkrut Yamaha untuk 2027.",https://www.motogp.com/en/riders/jorge-martin,verified
+R003,Marco Bezzecchi,Rider,"Pembalap utama Aprilia Racing asal Italia (#72) berjuluk The Bezz, penantang gelar MotoGP 2026.",https://www.motogp.com/en/riders/marco-bezzecchi,verified
+R004,Francesco Bagnaia,Rider,"Pembalap Ducati Lenovo Team asal Italia (#63) berjuluk Pecco, juara dunia MotoGP yang resmi bergabung dengan Aprilia Racing untuk musim 2027.",https://www.motogp.com/en/riders/francesco-bagnaia,verified
+R005,Alex Marquez,Rider,Pembalap BK8 Gresini Ducati asal Spanyol (#73) yang resmi direkrut Red Bull KTM Factory Racing untuk musim MotoGP 2027.,https://www.motogp.com/en/riders/alex-marquez,verified
+R006,Raul Fernandez,Rider,"Pembalap Trackhouse MotoGP Team asal Spanyol (#25), pemenang balapan utama MotoGP Inggris 2026 di Sirkuit Silverstone.",https://www.motogp.com/en/riders/raul-fernandez,verified
+R007,Ai Ogura,Rider,Pembalap Trackhouse MotoGP Team asal Jepang (#79) yang bersaing di papan atas MotoGP 2026 dan direkrut Yamaha Factory Racing untuk 2027.,https://www.motogp.com/en/riders/ai-ogura,verified
+R008,Fabio Quartararo,Rider,"Pembalap Monster Energy Yamaha MotoGP asal Prancis (#20) berjuluk El Diablo, juara dunia MotoGP 2021 yang pindah ke Honda HRC pada 2027.",https://www.motogp.com/en/riders/fabio-quartararo,verified
+R009,Pedro Acosta,Rider,Pembalap Red Bull KTM Factory Racing asal Spanyol (#37) berjuluk El Tiburon yang resmi direkrut Ducati Lenovo Team pada 2027.,https://www.motogp.com/en/riders/pedro-acosta,verified
+R010,Enea Bastianini,Rider,Pembalap Red Bull KTM Tech3 asal Italia (#23) berjuluk La Bestia yang resmi bergabung dengan Trackhouse MotoGP Team untuk musim 2027.,https://www.motogp.com/en/riders/enea-bastianini,verified
+R011,Fermin Aldeguer,Rider,Pembalap muda Spanyol (#54) dari BK8 Gresini Ducati yang resmi direkrut Pertamina Enduro VR46 Racing Team untuk musim MotoGP 2027.,https://www.motogp.com/en/riders/fermin-aldeguer,verified
+R012,Fabio Di Giannantonio,Rider,Pembalap Pertamina Enduro VR46 Racing Team asal Italia (#49) berjuluk Diggia yang dikaitkan dengan Red Bull KTM Factory Racing untuk 2027.,https://www.motogp.com/en/riders/fabio-di-giannantonio,verified
+R013,Franco Morbidelli,Rider,"Pembalap Pertamina Enduro VR46 Racing Team asal Italia (#21), jebolan pertama akademi VR46.",https://www.motogp.com/en/riders/franco-morbidelli,verified
+R014,Luca Marini,Rider,Pembalap Honda HRC Castrol asal Italia (#10) yang resmi direkrut Red Bull KTM Tech3 untuk musim MotoGP 2027.,https://www.motogp.com/en/riders/luca-marini,verified
+R015,Maverick Vinales,Rider,Pembalap Red Bull KTM Tech3 asal Spanyol (#12) berjuluk Top Gun yang sempat absen pada seri Inggris dan Aragon 2026 karena cedera bahu.,https://www.motogp.com/en/riders/maverick-vinales,verified
+R016,Joan Mir,Rider,"Pembalap Honda HRC Castrol asal Spanyol (#36), juara dunia MotoGP 2020 yang direkrut Gresini Racing untuk musim 2027.",https://www.motogp.com/en/riders/joan-mir,verified
+R017,Johann Zarco,Rider,Pembalap veteran Prancis (#5) dari Castrol Honda LCR (LCR Honda).,https://www.motogp.com/en/riders/johann-zarco,verified
+R018,Alex Rins,Rider,"Pembalap Monster Energy Yamaha MotoGP asal Spanyol (#42), pengoleksi dua kemenangan di Sirkuit MotorLand Aragon.",https://www.motogp.com/en/riders/alex-rins,verified
+R019,Brad Binder,Rider,Pembalap Red Bull KTM Factory Racing asal Afrika Selatan (#33).,https://www.motogp.com/en/riders/brad-binder,verified
+R020,Jack Miller,Rider,Pembalap Prima Pramac Yamaha asal Australia (#43) berjuluk Thriller Miller.,https://www.motogp.com/en/riders/jack-miller,verified
+R021,Toprak Razgatlioglu,Rider,"Pembalap Prima Pramac Yamaha asal Turki (#07) berjuluk El Turco, juara dunia World Superbike yang berlaga di kelas utama MotoGP.",https://www.motogp.com/en/riders/toprak-razgatlioglu,verified
+R022,Diogo Moreira,Rider,Pembalap muda Brasil (#10) dari Pro Honda LCR (LCR Honda) yang menjadi kandidat pembalap tim pabrikan Honda pada 2027.,https://www.motogp.com/en/riders/diogo-moreira,verified
+R023,Pol Espargaro,Rider,Pembalap penguji KTM asal Spanyol (#44) berjuluk Polyccio yang menggantikan Maverick Vinales di Tech3 pada MotoGP Inggris dan Aragon 2026.,https://www.motogp.com/en/riders/pol-espargaro,verified
+R024,Aleix Espargaro,Rider,"Pembalap veteran Spanyol (#41) berjuluk Il Capitano, eks pembalap utama Aprilia dan pembalap penguji HRC.",https://www.motogp.com/en/riders/aleix-espargaro,verified
+R025,Lorenzo Savadori,Rider,Pembalap penguji Aprilia asal Italia (#32) yang diturunkan menggantikan Ai Ogura di Trackhouse MotoGP Team pada MotoGP Aragon 2026.,https://www.motogp.com/en/riders/lorenzo-savadori,verified
+R026,Iker Lecuona,Rider,Pembalap Spanyol (#27) yang tampil sebagai pembalap pengganti bersama BK8 Gresini Ducati pada MotoGP Inggris 2026.,https://www.motogp.com/en/riders/iker-lecuona,verified
+R027,Cal Crutchlow,Rider,Pembalap Inggris (#35) yang tampil bersama Castrol Honda LCR pada MotoGP Inggris 2026.,https://www.motogp.com/en/riders/cal-crutchlow,verified
+R028,Augusto Fernandez,Rider,Pembalap penguji dan wildcard Yamaha Factory Racing asal Spanyol (#37) yang turun pada MotoGP Inggris 2026.,https://www.motogp.com/en/riders/augusto-fernandez,verified
+R029,Mario Suryo Aji,Rider,Pembalap Indonesia asal Magetan (#64) berjuluk Super Mario yang berlaga di kelas Moto2 bersama Idemitsu Honda Team Asia.,https://www.motogp.com/en/riders/mario-aji,verified
+R030,Veda Ega Pratama,Rider,Pembalap muda Indonesia asal Gunungkidul (#54) yang berlaga di kelas Moto3 bersama Honda Team Asia.,https://www.motogp.com/en/riders/veda-ega-pratama,verified
+R031,David Alonso,Rider,"Pembalap Kolombia (#80) dari CFMoto Aspar Team, juara dunia Moto3 2024 yang berlaga di Moto2 dan menjadi kandidat pembalap MotoGP 2027.",https://www.motogp.com/en/riders/david-alonso,verified
+R032,David Almansa,Rider,Pembalap Spanyol (#22) di kelas Moto3 bersama Liqui Moly Dynavolt Intact GP yang memuncaki FP1 Moto3 Inggris dan Aragon 2026.,https://www.motogp.com/en/riders/david-almansa,verified
+R033,Izan Guevara,Rider,"Pembalap Spanyol (#28) di kelas Moto2, juara dunia Moto3 2022 yang menjadi kandidat pembalap Pramac Yamaha.",https://www.motogp.com/en/riders/izan-guevara,verified
+R034,Daniel Holgado,Rider,Pembalap muda Spanyol (#96) yang resmi direkrut Gresini Racing untuk naik ke kelas MotoGP pada musim 2027.,https://www.motogp.com/en/riders/daniel-holgado,verified
+R035,Ivan Ortola,Rider,Pembalap Spanyol (#48) dari tim QJMotor Frinsa MSI di kelas Moto2 yang mencatatkan waktu tercepat pada FP1 Moto2 Aragon 2026.,https://www.motogp.com/en/riders/ivan-ortola,verified
+R036,Brian Uriarte,Rider,Pembalap muda Spanyol (#51) di kelas Moto3 yang tampil kompetitif pada sesi FP1 Moto3 Aragon 2026.,https://www.motogp.com/en/riders/brian-uriarte,verified
+R037,Valentino Rossi,Rider,Legenda MotoGP asal Italia (#46) peraih sembilan gelar juara dunia berjuluk The Doctor sekaligus pemilik Pertamina Enduro VR46 Racing Team.,https://www.motogp.com/en/riders/valentino-rossi,verified
+R038,Casey Stoner,Rider,"Legenda MotoGP asal Australia (#27), juara dunia MotoGP dua kali (2007 dan 2011) serta pemenang dua balapan GP Aragon.",https://www.motogp.com/en/riders/casey-stoner,verified
+R039,Jorge Lorenzo,Rider,"Legenda MotoGP asal Spanyol (#99) berjuluk X-Fuera, juara dunia MotoGP tiga kali bersama Yamaha serta pemenang dua balapan GP Aragon.",https://www.motogp.com/en/riders/jorge-lorenzo,verified
+R040,Dani Pedrosa,Rider,"Legenda MotoGP asal Spanyol (#26) berjuluk The Little Samurai dan pembalap penguji KTM, pemenang GP Aragon 2012.",https://www.motogp.com/en/riders/dani-pedrosa,verified
+R041,Andrea Dovizioso,Rider,Legenda MotoGP asal Italia (#04) berjuluk Dovi yang menjadi runner-up juara dunia tiga kali bersama Ducati.,https://www.motogp.com/en/riders/andrea-dovizioso,verified
+R042,Maximo Quiles,Rider,Pembalap muda Spanyol (#28) binaan CFMoto Aspar Team yang berlaga di kelas Moto3.,https://www.motogp.com/en/riders/maximo-quiles,verified
+R043,Nicolo Bulega,Rider,Pembalap Italia (#11) dari skuad Ducati yang diproyeksikan mengisi kursi Pertamina Enduro VR46 Racing Team mendampingi Fermin Aldeguer pada 2027.,https://www.motogp.com/en/riders/nicolo-bulega,verified
+R044,Senna Agius,Rider,Pembalap muda Australia (#81) di kelas Moto2 yang menjadi kandidat kuat pembalap Red Bull KTM Tech3 mendampingi Luca Marini pada 2027.,https://www.motogp.com/en/riders/senna-agius,verified
+R045,Taiyo Furusato,Rider,Pembalap muda Jepang (#72) rekan setim Mario Suryo Aji di Idemitsu Honda Team Asia yang berlaga di kelas Moto2.,https://www.motogp.com/en/riders/taiyo-furusato,verified
+R046,Alonso Lopez,Rider,Pembalap Spanyol (#21) di kelas Moto2 yang menempati posisi kedua pada sesi latihan bebas pertama (FP1) Moto2 Aragon 2026.,https://www.motogp.com/en/riders/alonso-lopez,verified
+R047,Adrian Fernandez,Rider,Pembalap Spanyol (#31) di kelas Moto3 (adik kandung Raul Fernandez) yang menempati posisi ketiga pada FP1 GP Inggris 2026.,https://www.motogp.com/en/riders/adrian-fernandez,verified
+R048,Jake Dixon,Rider,Pembalap Inggris (#96) yang memperkuat CFMoto Aspar Team di kejuaraan dunia kelas Moto2.,https://www.motogp.com/en/riders/jake-dixon,verified
+R049,Miguel Oliveira,Rider,Pembalap kelas utama MotoGP asal Portugal (#88) yang tercatat dalam daftar pembalap resmi motogp.com.,https://www.motogp.com/en/riders/miguel-oliveira,verified
+R050,Somkiat Chantra,Rider,Pembalap asal Thailand (#35) jebolan Idemitsu Honda Team Asia dan LCR Honda yang tercatat dalam daftar pembalap resmi motogp.com.,https://www.motogp.com/en/riders/somkiat-chantra,verified
+T001,Ducati Lenovo Team,Team,Tim pabrikan utama Ducati di kelas MotoGP yang diperkuat Marc Marquez dan Francesco Bagnaia pada musim 2026.,https://www.motogp.com/en/teams/ducati-lenovo-team,verified
+T002,Aprilia Racing,Team,"Tim pabrikan resmi Aprilia di MotoGP yang berbasis di Noale, Italia, diperkuat Jorge Martin dan Marco Bezzecchi pada 2026.",https://www.motogp.com/en/teams/aprilia-racing,verified
+T003,Trackhouse MotoGP Team,Team,Tim satelit Aprilia asal Amerika Serikat milik Justin Marks yang diperkuat Raul Fernandez dan Ai Ogura pada musim MotoGP 2026.,https://www.motogp.com/en/teams/trackhouse-motogp-team,verified
+T004,Pertamina Enduro VR46 Racing Team,Team,"Tim satelit Ducati milik Valentino Rossi yang disponsori Pertamina Lubricants, diperkuat Fabio Di Giannantonio dan Franco Morbidelli pada 2026.",https://www.motogp.com/en/teams/pertamina-enduro-vr46-racing-team,verified
+T005,Gresini Racing,Team,Tim independen satelit Ducati asal Italia yang diperkuat Alex Marquez dan Fermin Aldeguer pada musim MotoGP 2026.,https://www.motogp.com/en/teams/gresini-racing-motogp,verified
+T006,Red Bull KTM Factory Racing,Team,Tim pabrikan utama KTM di kelas MotoGP yang diperkuat Pedro Acosta dan Brad Binder pada musim 2026.,https://www.motogp.com/en/teams/red-bull-ktm-factory-racing,verified
+T007,Red Bull KTM Tech3,Team,"Tim satelit KTM asal Prancis yang dipimpin Nicolas Goyon dan Guenther Steiner, diperkuat Enea Bastianini dan Maverick Vinales pada 2026.",https://www.motogp.com/en/teams/red-bull-ktm-tech3,verified
+T008,Monster Energy Yamaha MotoGP,Team,Tim pabrikan resmi Yamaha di kelas MotoGP yang diperkuat Fabio Quartararo dan Alex Rins pada musim 2026.,https://www.motogp.com/en/teams/monster-energy-yamaha-motogp,verified
+T009,Prima Pramac Yamaha,Team,Tim satelit resmi Yamaha di kelas MotoGP yang diperkuat Jack Miller dan Toprak Razgatlioglu pada musim 2026.,https://www.motogp.com/en/teams/prima-pramac-yamaha-motogp,verified
+T010,Honda HRC Castrol,Team,Tim pabrikan resmi Honda (Honda Racing Corporation) di kelas MotoGP yang diperkuat Joan Mir dan Luca Marini pada musim 2026.,https://www.motogp.com/en/teams/honda-hrc-castrol,verified
+T011,LCR Honda,Team,Tim satelit Honda di kelas MotoGP yang diperkuat Johann Zarco (Castrol Honda LCR) dan Diogo Moreira (Pro Honda LCR) pada musim 2026.,https://www.motogp.com/en/teams/lcr-honda,verified
+T012,Idemitsu Honda Team Asia,Team,"Tim balap pembinaan Honda di kelas Moto2 dan Moto3 yang dipimpin Hiroshi Aoyama, menaungi Mario Suryo Aji, Taiyo Furusato, dan Veda Ega Pratama.",https://www.motogp.com/en/teams/idemitsu-honda-team-asia,verified
+T013,CFMoto Aspar Team,Team,Tim balap asal Spanyol milik Jorge 'Aspar' Martinez yang bermitra dengan pabrikan CFMoto di kelas Moto3 dan Moto2.,https://www.motogp.com/en/teams/cfmoto-aspar-team,verified
+T014,Liqui Moly Dynavolt Intact GP,Team,Tim balap asal Jerman di kelas Moto2 dan Moto3 yang menaungi Senna Agius dan David Almansa.,https://www.motogp.com/en/teams/liqui-moly-dynavolt-intact-gp,verified
+T015,QJMotor Frinsa MSI,Team,Tim balap asal Spanyol di kelas Moto2 dan Moto3 yang diperkuat Ivan Ortola.,https://www.motogp.com/en/teams/qjmotor-frinsa-msi,verified
+M001,Ducati,Manufacturer,"Pabrikan sepeda motor asal Borgo Panigale, Bologna, Italia, produsen motor prototipe Desmosedici GP di MotoGP.",https://www.ducati.com/ww/en/racing/motogp,verified
+M002,Aprilia,Manufacturer,"Pabrikan sepeda motor asal Noale, Italia, produsen motor prototipe RS-GP di kelas utama MotoGP.",https://www.aprilia.com/en_EN/aprilia-racing/motogp/,verified
+M003,Yamaha,Manufacturer,"Pabrikan sepeda motor asal Jepang, produsen motor prototipe YZR-M1 dan pengembang mesin V4 di kelas utama MotoGP.",https://www.yamahamotogp.com/,verified
+M004,Honda,Manufacturer,"Pabrikan sepeda motor asal Jepang, produsen motor prototipe RC213V di kelas utama MotoGP dan NSF250RW di Moto3.",https://motogp.hondaracingcorporation.com/,verified
+M005,KTM,Manufacturer,"Pabrikan sepeda motor asal Mattighofen, Austria, produsen motor prototipe RC16 di MotoGP dan RC250GP di Moto3.",https://www.ktm.com/en-int/racing/motogp.html,verified
+M006,CFMoto,Manufacturer,"Pabrikan sepeda motor asal Hangzhou, Zhejiang, China, yang berkompetisi di Moto3 dan Moto2 serta mengembangkan superbike V4 SR-RR.",https://www.cfmoto.com/,verified
+M007,Kalex,Manufacturer,Pabrikan sasis balap asal Jerman yang mendominasi kejuaraan dunia kelas Moto2 dan diakuisisi CFMoto pada 2026.,https://www.kalex-engineering.de/,verified
+M008,Triumph,Manufacturer,Pabrikan sepeda motor asal Inggris yang menjadi pemasok resmi mesin tiga silinder 765 cc di kelas Moto2.,https://www.triumphmotorcycles.co.uk/for-the-ride/racing/moto2,verified
+M009,Suzuki,Manufacturer,"Pabrikan sepeda motor asal Jepang, produsen GSX-RR yang pernah berlaga di kelas utama MotoGP dan memenangi GP Aragon 2020 bersama Alex Rins.",https://www.suzuki-racing.com/,verified
+M010,QJMotor,Manufacturer,Pabrikan sepeda motor asal China (Zhejiang Qianjiang Motorcycle) yang berpartisipasi di kejuaraan dunia kelas Moto2 dan ekspansi balap global.,https://global.qjmotor.com/,verified
+C001,Sirkuit MotorLand Aragon,Circuit,"Sirkuit balap modern di Alcaniz, Spanyol, yang menjadi tuan rumah seri ke-14 MotoGP Aragon 2026.",https://www.motogp.com/en/calendar,verified
+C002,Sirkuit Silverstone,Circuit,"Sirkuit balap di Northamptonshire, Inggris, yang menjadi tuan rumah seri ke-13 MotoGP Inggris 2026.",https://www.motogp.com/en/calendar,verified
+C003,Sirkuit Internasional Pertamina Mandalika,Circuit,"Sirkuit balap internasional di KEK Mandalika, Lombok Tengah, Nusa Tenggara Barat, tuan rumah MotoGP Indonesia.",https://www.motogp.com/en/calendar,verified
+C004,Sirkuit Internasional Sepang,Circuit,"Sirkuit balap internasional di Selangor, Malaysia, yang menjadi tuan rumah MotoGP Malaysia dan tes pramusim resmi.",https://www.motogp.com/en/calendar,verified
+C005,Sirkuit Mobility Resort Motegi,Circuit,"Sirkuit balap di Prefektur Tochigi, Jepang, yang menjadi tuan rumah seri MotoGP Jepang.",https://www.motogp.com/en/calendar,verified
+C006,Sirkuit Sachsenring,Circuit,"Sirkuit balap di Hohenstein-Ernstthal, Saxony, Jerman, yang menjadi tuan rumah MotoGP Jerman.",https://www.motogp.com/en/calendar,verified
+C007,Sirkuit Jerez,Circuit,"Sirkuit balap Circuito de Jerez-Angel Nieto di Andalusia, Spanyol, tuan rumah MotoGP Spanyol dan lokasi tes resmi.",https://www.motogp.com/en/calendar,verified
+C008,Sirkuit Assen,Circuit,"Sirkuit balap bersejarah TT Circuit Assen di Belanda berjuluk The Cathedral of Speed, tuan rumah MotoGP Belanda.",https://www.motogp.com/en/calendar,verified
+C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,"Sirkuit balap Autodromo Internacional Ayrton Senna di Goiania, Brasil, tuan rumah Grand Prix Brasil mulai 2026.",https://www.motogp.com/en/calendar,verified
+C010,Sirkuit Ricardo Tormo Valencia,Circuit,"Sirkuit balap Circuit Ricardo Tormo di Cheste, Valencia, Spanyol, tuan rumah seri penutup dan tes pascamusim MotoGP.",https://www.motogp.com/en/calendar,verified
+C011,Sirkuit Zandvoort,Circuit,Sirkuit balap di Belanda yang menjadi lokasi Grand Prix Formula 1 Belanda (disebutkan dalam konteks cedera Isack Hadjar dan nasihat Marc Marquez).,https://www.circuitzandvoort.nl/,verified
+C012,Sirkuit Barcelona-Catalunya,Circuit,"Sirkuit balap Circuit de Barcelona-Catalunya di Montmelo, Barcelona, Spanyol, yang menjadi tuan rumah MotoGP Catalunya.",https://www.motogp.com/en/calendar,verified
+C013,Sirkuit Red Bull Ring Spielberg,Circuit,"Sirkuit balap di Spielberg, Styria, Austria, yang menjadi tuan rumah MotoGP Austria.",https://www.motogp.com/en/calendar,verified
+C014,Sirkuit Phillip Island,Circuit,"Sirkuit balap di Pulau Phillip, Victoria, Australia, yang menjadi tuan rumah MotoGP Australia.",https://www.motogp.com/en/calendar,verified
+C015,Sirkuit Balaton Park,Circuit,"Sirkuit balap modern di dekat Danau Balaton, Hungaria, yang masuk kalender resmi sebagai tuan rumah MotoGP Hungaria.",https://www.motogp.com/en/calendar,verified
+C016,Sirkuit Internasional Buriram,Circuit,"Sirkuit balap Chang International Circuit di Buriram, Thailand, yang menjadi tuan rumah seri MotoGP Thailand pada kalender resmi motogp.com.",https://www.motogp.com/en/calendar,verified
+C017,Sirkuit Bugatti Le Mans,Circuit,"Sirkuit balap Bugatti Circuit di Le Mans, Prancis, yang menjadi tuan rumah seri MotoGP Prancis pada kalender resmi motogp.com.",https://www.motogp.com/en/calendar,verified
+C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,"Sirkuit balap di Scarperia e San Piero, Tuscany, Italia, yang menjadi tuan rumah seri MotoGP Italia pada kalender resmi motogp.com.",https://www.motogp.com/en/calendar,verified
+C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,"Sirkuit balap di Misano Adriatico, Rimini, Italia, yang menjadi tuan rumah MotoGP San Marino pada kalender resmi motogp.com.",https://www.motogp.com/en/calendar,verified
+C020,Sirkuit Internasional Lusail,Circuit,Sirkuit balap Lusail International Circuit di Qatar yang menjadi tuan rumah seri MotoGP Qatar pada kalender resmi motogp.com.,https://www.motogp.com/en/calendar,verified

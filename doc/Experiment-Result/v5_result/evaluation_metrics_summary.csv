@@ -1,0 +1,11 @@
+query_subset,system,num_queries,Precision@5,Precision@10,Recall@5,Recall@10,MAP
+All Queries (Q01-Q12),Baseline (TF-IDF + Cosine Similarity),12,0.5833,0.3583,0.7177,0.8417,0.8046
+All Queries (Q01-Q12),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",12,0.6167,0.3917,0.7863,0.9236,0.8586
+Entity-Based Queries (Q01-Q09),Baseline (TF-IDF + Cosine Similarity),9,0.6889,0.4333,0.6235,0.7889,0.7858
+Entity-Based Queries (Q01-Q09),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",9,0.7333,0.4778,0.7151,0.8981,0.8578
+Subgroup: Alias / Nickname Queries (Q01-Q04),Baseline (TF-IDF + Cosine Similarity),4,0.55,0.375,0.5244,0.7208,0.6841
+Subgroup: Alias / Nickname Queries (Q01-Q04),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",4,0.6,0.425,0.6679,0.875,0.8161
+Subgroup: Canonical Entity Queries (Q05-Q09),Baseline (TF-IDF + Cosine Similarity),5,0.8,0.48,0.7029,0.8433,0.8672
+Subgroup: Canonical Entity Queries (Q05-Q09),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",5,0.84,0.52,0.7529,0.9167,0.8912
+Non-Entity Queries / Fallback (Q10-Q12),Baseline (TF-IDF + Cosine Similarity),3,0.2667,0.1333,1.0,1.0,0.8611
+Non-Entity Queries / Fallback (Q10-Q12),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",3,0.2667,0.1333,1.0,1.0,0.8611

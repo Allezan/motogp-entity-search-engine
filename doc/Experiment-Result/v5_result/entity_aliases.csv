@@ -1,0 +1,391 @@
+alias_id,entity_id,alias,normalized_alias
+1,R001,Marc Marquez,marc marquez
+2,R001,Marquez,marquez
+3,R001,MM93,mm93
+4,R001,The Baby Alien,the baby alien
+5,R002,Jorge Martin,jorge martin
+6,R002,Martin,martin
+7,R002,JM89,jm89
+8,R002,Martinator,martinator
+9,R002,The Martinator,the martinator
+10,R003,Marco Bezzecchi,marco bezzecchi
+11,R003,Bezzecchi,bezzecchi
+12,R003,MB72,mb72
+13,R003,The Bezz,the bezz
+14,R003,Marc Bezzecchi,marc bezzecchi
+15,R004,Francesco Bagnaia,francesco bagnaia
+16,R004,Pecco Bagnaia,pecco bagnaia
+17,R004,Bagnaia,bagnaia
+18,R004,Pecco,pecco
+19,R004,FB63,fb63
+20,R005,Alex Marquez,alex marquez
+21,R005,Marquez,marquez
+22,R005,AM73,am73
+23,R006,Raul Fernandez,raul fernandez
+24,R006,Fernandez,fernandez
+25,R006,RF25,rf25
+26,R007,Ai Ogura,ai ogura
+27,R007,Ogura,ogura
+28,R007,AO79,ao79
+29,R008,Fabio Quartararo,fabio quartararo
+30,R008,Quartararo,quartararo
+31,R008,FQ20,fq20
+32,R008,El Diablo,el diablo
+33,R009,Pedro Acosta,pedro acosta
+34,R009,Acosta,acosta
+35,R009,PA37,pa37
+36,R009,El Tiburon,el tiburon
+37,R010,Enea Bastianini,enea bastianini
+38,R010,Bastianini,bastianini
+39,R010,EB23,eb23
+40,R010,La Bestia,la bestia
+41,R010,Bestia,bestia
+42,R011,Fermin Aldeguer,fermin aldeguer
+43,R011,Aldeguer,aldeguer
+44,R011,FA54,fa54
+45,R011,Alseguer,alseguer
+46,R012,Fabio Di Giannantonio,fabio di giannantonio
+47,R012,Di Giannantonio,di giannantonio
+48,R012,Giannantonio,giannantonio
+49,R012,Diggia,diggia
+50,R012,FD49,fd49
+51,R013,Franco Morbidelli,franco morbidelli
+52,R013,Morbidelli,morbidelli
+53,R013,FM21,fm21
+54,R013,Franky,franky
+55,R014,Luca Marini,luca marini
+56,R014,Marini,marini
+57,R014,LM10,lm10
+58,R015,Maverick Vinales,maverick vinales
+59,R015,Vinales,vinales
+60,R015,MV12,mv12
+61,R015,Top Gun,top gun
+62,R016,Joan Mir,joan mir
+63,R016,Mir,mir
+64,R016,JM36,jm36
+65,R017,Johann Zarco,johann zarco
+66,R017,Zarco,zarco
+67,R017,JZ5,jz5
+68,R018,Alex Rins,alex rins
+69,R018,Rins,rins
+70,R018,AR42,ar42
+71,R019,Brad Binder,brad binder
+72,R019,Binder,binder
+73,R019,BB33,bb33
+74,R020,Jack Miller,jack miller
+75,R020,Miller,miller
+76,R020,JM43,jm43
+77,R020,Thriller Miller,thriller miller
+78,R021,Toprak Razgatlioglu,toprak razgatlioglu
+79,R021,Toprak Razgatliolu,toprak razgatliolu
+80,R021,Razgatlioglu,razgatlioglu
+81,R021,Toprak,toprak
+82,R021,TR07,tr07
+83,R021,El Turco,el turco
+84,R022,Diogo Moreira,diogo moreira
+85,R022,Diego Moreira,diego moreira
+86,R022,Moreira,moreira
+87,R022,DM10,dm10
+88,R023,Pol Espargaro,pol espargaro
+89,R023,Espargaro,espargaro
+90,R023,PE44,pe44
+91,R023,Polyccio,polyccio
+92,R024,Aleix Espargaro,aleix espargaro
+93,R024,Espargaro,espargaro
+94,R024,AE41,ae41
+95,R024,Il Capitano,il capitano
+96,R025,Lorenzo Savadori,lorenzo savadori
+97,R025,Savadori,savadori
+98,R025,LS32,ls32
+99,R026,Iker Lecuona,iker lecuona
+100,R026,Lecuona,lecuona
+101,R026,IL27,il27
+102,R027,Cal Crutchlow,cal crutchlow
+103,R027,Crutchlow,crutchlow
+104,R027,CC35,cc35
+105,R028,Augusto Fernandez,augusto fernandez
+106,R028,August Fernandez,august fernandez
+107,R028,Fernandez,fernandez
+108,R028,AF37,af37
+109,R029,Mario Suryo Aji,mario suryo aji
+110,R029,Mario Aji,mario aji
+111,R029,Super Mario,super mario
+112,R029,MA64,ma64
+113,R030,Veda Ega Pratama,veda ega pratama
+114,R030,Veda Pratama,veda pratama
+115,R030,Veda Ega,veda ega
+116,R030,Veda,veda
+117,R030,VP54,vp54
+118,R031,David Alonso,david alonso
+119,R031,Alonso,alonso
+120,R031,DA80,da80
+121,R032,David Almansa,david almansa
+122,R032,Almansa,almansa
+123,R032,DA22,da22
+124,R033,Izan Guevara,izan guevara
+125,R033,Guevara,guevara
+126,R033,IG28,ig28
+127,R034,Daniel Holgado,daniel holgado
+128,R034,Dani Holgado,dani holgado
+129,R034,Holgado,holgado
+130,R034,DH96,dh96
+131,R035,Ivan Ortola,ivan ortola
+132,R035,Ortola,ortola
+133,R035,IO48,io48
+134,R036,Brian Uriarte,brian uriarte
+135,R036,Uriarte,uriarte
+136,R036,BU51,bu51
+137,R037,Valentino Rossi,valentino rossi
+138,R037,Rossi,rossi
+139,R037,The Doctor,the doctor
+140,R037,VR46,vr46
+141,R038,Casey Stoner,casey stoner
+142,R038,Stoner,stoner
+143,R038,CS27,cs27
+144,R039,Jorge Lorenzo,jorge lorenzo
+145,R039,Lorenzo,lorenzo
+146,R039,JL99,jl99
+147,R039,X-Fuera,x-fuera
+148,R040,Dani Pedrosa,dani pedrosa
+149,R040,Pedrosa,pedrosa
+150,R040,DP26,dp26
+151,R040,The Little Samurai,the little samurai
+152,R041,Andrea Dovizioso,andrea dovizioso
+153,R041,Dovizioso,dovizioso
+154,R041,Dovi,dovi
+155,R041,AD04,ad04
+156,R042,Maximo Quiles,maximo quiles
+157,R042,Massimo Quiles,massimo quiles
+158,R042,Quiles,quiles
+159,R042,MQ28,mq28
+160,R043,Nicolo Bulega,nicolo bulega
+161,R043,Bulega,bulega
+162,R043,NB11,nb11
+163,R044,Senna Agius,senna agius
+164,R044,Agius,agius
+165,R044,SA81,sa81
+166,R045,Taiyo Furusato,taiyo furusato
+167,R045,Furusato,furusato
+168,R045,TF72,tf72
+169,R046,Alonso Lopez,alonso lopez
+170,R046,AL21,al21
+171,R047,Adrian Fernandez,adrian fernandez
+172,R047,AF31,af31
+173,R048,Jake Dixon,jake dixon
+174,R048,Dixon,dixon
+175,R048,JD96,jd96
+176,R049,Miguel Oliveira,miguel oliveira
+177,R049,Oliveira,oliveira
+178,R049,MO88,mo88
+179,R050,Somkiat Chantra,somkiat chantra
+180,R050,Chantra,chantra
+181,R050,SC35,sc35
+182,T001,Ducati Lenovo Team,ducati lenovo team
+183,T001,Ducati Lenovo,ducati lenovo
+184,T001,Ducati Factory Team,ducati factory team
+185,T002,Aprilia Racing,aprilia racing
+186,T002,Aprilia Factory Racing,aprilia factory racing
+187,T003,Trackhouse MotoGP Team,trackhouse motogp team
+188,T003,SuperFile Trackhouse MotoGP Team,superfile trackhouse motogp team
+189,T003,SuperFile Trackhouse,superfile trackhouse
+190,T003,Tim MotoGP Trackhouse Aprilia,tim motogp trackhouse aprilia
+191,T003,Tim MotoGP Trackhouse,tim motogp trackhouse
+192,T003,Trackhouse Racing,trackhouse racing
+193,T003,Trackhouse Aprilia,trackhouse aprilia
+194,T003,Trackhouse MotoGP,trackhouse motogp
+195,T003,Trackhouse,trackhouse
+196,T004,Pertamina Enduro VR46 Racing Team,pertamina enduro vr46 racing team
+197,T004,Pertamina Enduro VR46 Racing,pertamina enduro vr46 racing
+198,T004,Pertamina Enduro VR46,pertamina enduro vr46
+199,T004,Pertamina VR46 Ducati,pertamina vr46 ducati
+200,T004,VR46 Racing Team,vr46 racing team
+201,T004,Tim VR46 Racing,tim vr46 racing
+202,T004,VR46 Ducati,vr46 ducati
+203,T004,VR46,vr46
+204,T005,Gresini Racing MotoGP,gresini racing motogp
+205,T005,BK8 Gresini Ducati,bk8 gresini ducati
+206,T005,BK8 Gresini Racing,bk8 gresini racing
+207,T005,Gresini Racing,gresini racing
+208,T005,Gresini Ducati,gresini ducati
+209,T005,Gresini,gresini
+210,T006,Red Bull KTM Factory Racing,red bull ktm factory racing
+211,T006,Red Bull KTM,red bull ktm
+212,T007,Red Bull KTM Tech3,red bull ktm tech3
+213,T007,Tech3 KTM,tech3 ktm
+214,T007,Tech3 Racing,tech3 racing
+215,T007,Tech3,tech3
+216,T008,Monster Energy Yamaha MotoGP,monster energy yamaha motogp
+217,T008,Yamaha Factory Racing,yamaha factory racing
+218,T008,Yamaha Monster Energy,yamaha monster energy
+219,T008,Monster Yamaha,monster yamaha
+220,T009,Prima Pramac Yamaha MotoGP,prima pramac yamaha motogp
+221,T009,Prima Pramac Yamaha,prima pramac yamaha
+222,T009,Pramac Yamaha,pramac yamaha
+223,T009,Pramac Racing,pramac racing
+224,T009,Pramac,pramac
+225,T010,Honda HRC Castrol,honda hrc castrol
+226,T010,Honda Racing Corporation,honda racing corporation
+227,T010,Honda Racing Coorporation,honda racing coorporation
+228,T010,Honda HRC,honda hrc
+229,T010,Repsol Honda Team,repsol honda team
+230,T010,Repsol Honda,repsol honda
+231,T010,HRC,hrc
+232,T011,Castrol Honda LCR,castrol honda lcr
+233,T011,Pro Honda LCR,pro honda lcr
+234,T011,Idemitsu Honda LCR,idemitsu honda lcr
+235,T011,LCR Honda,lcr honda
+236,T012,Idemitsu Honda Team Asia,idemitsu honda team asia
+237,T012,Honda Team Asia,honda team asia
+238,T013,CFMoto Aspar Team,cfmoto aspar team
+239,T013,CFMOTO Gaviota Aspar Team,cfmoto gaviota aspar team
+240,T013,Aspar Team,aspar team
+241,T013,Aspar,aspar
+242,T014,Liqui Moly Dynavolt Intact GP,liqui moly dynavolt intact gp
+243,T014,Liqui Moly Intact GP,liqui moly intact gp
+244,T014,Intact GP,intact gp
+245,T014,Liqui Moly,liqui moly
+246,T015,QJMotor Frinsa MSI,qjmotor frinsa msi
+247,T015,QJMotor Reverte MSI,qjmotor reverte msi
+248,T015,MT Helmets - MSI,mt helmets - msi
+249,T015,Frinsa MSI,frinsa msi
+250,M001,Ducati Corse,ducati corse
+251,M001,Ducati Desmosedici GP,ducati desmosedici gp
+252,M001,Desmosedici GP26,desmosedici gp26
+253,M001,Desmosedici GP25,desmosedici gp25
+254,M001,Desmosedici GP,desmosedici gp
+255,M001,Desmosedici,desmosedici
+256,M001,Ducati,ducati
+257,M002,Aprilia RS-GP26,aprilia rs-gp26
+258,M002,Aprilia RS-GP,aprilia rs-gp
+259,M002,RS-GP26,rs-gp26
+260,M002,RS-GP,rs-gp
+261,M002,Aprilia,aprilia
+262,M003,Yamaha YZR-M1,yamaha yzr-m1
+263,M003,Yamaha V4,yamaha v4
+264,M003,YZR-M1,yzr-m1
+265,M003,Yamaha,yamaha
+266,M004,Honda RC213V,honda rc213v
+267,M004,RC213V,rc213v
+268,M004,NSF250RW,nsf250rw
+269,M004,Honda,honda
+270,M005,KTM RC16,ktm rc16
+271,M005,KTM RC250GP,ktm rc250gp
+272,M005,RC16,rc16
+273,M005,RC250GP,rc250gp
+274,M005,KTM,ktm
+275,M006,CFMoto V4 SR-RR,cfmoto v4 sr-rr
+276,M006,V4 SR-RR,v4 sr-rr
+277,M006,CFMoto,cfmoto
+278,M007,Kalex Engineering,kalex engineering
+279,M007,Kalex,kalex
+280,M008,Triumph Motorcycles,triumph motorcycles
+281,M008,Triumph 765,triumph 765
+282,M008,Triumph,triumph
+283,M009,Suzuki Ecstar,suzuki ecstar
+284,M009,Suzuki GSX-RR,suzuki gsx-rr
+285,M009,GSX-RR,gsx-rr
+286,M009,Suzuki,suzuki
+287,M010,QJMotor,qjmotor
+288,M010,Qianjiang Motorcycle,qianjiang motorcycle
+289,C001,Sirkuit MotorLand Aragon,sirkuit motorland aragon
+290,C001,MotorLand Aragon,motorland aragon
+291,C001,Sirkuit Aragon,sirkuit aragon
+292,C001,Sirkuit MotorLand,sirkuit motorland
+293,C001,MotorLand,motorland
+294,C001,MotoGP Aragon,motogp aragon
+295,C001,GP Aragon,gp aragon
+296,C001,Grand Prix Aragon,grand prix aragon
+297,C001,Aragon,aragon
+298,C002,Sirkuit Silverstone,sirkuit silverstone
+299,C002,Silverstone Circuit,silverstone circuit
+300,C002,Silverstone,silverstone
+301,C003,Sirkuit Internasional Pertamina Mandalika,sirkuit internasional pertamina mandalika
+302,C003,Pertamina Mandalika International Circuit,pertamina mandalika international circuit
+303,C003,Sirkuit Pertamina Mandalika,sirkuit pertamina mandalika
+304,C003,Sirkuit Mandalika,sirkuit mandalika
+305,C003,MotoGP Mandalika,motogp mandalika
+306,C003,The Mandalika,the mandalika
+307,C003,Mandalika,mandalika
+308,C004,Sirkuit Internasional Sepang,sirkuit internasional sepang
+309,C004,Sepang International Circuit,sepang international circuit
+310,C004,Sirkuit Sepang,sirkuit sepang
+311,C004,MotoGP Sepang,motogp sepang
+312,C004,Sepang,sepang
+313,C005,Sirkuit Mobility Resort Motegi,sirkuit mobility resort motegi
+314,C005,Mobility Resort Motegi,mobility resort motegi
+315,C005,Twin Ring Motegi,twin ring motegi
+316,C005,Sirkuit Motegi,sirkuit motegi
+317,C005,Motegi,motegi
+318,C006,Sirkuit Sachsenring,sirkuit sachsenring
+319,C006,Sachsenring,sachsenring
+320,C007,Sirkuit Jerez,sirkuit jerez
+321,C007,Circuito de Jerez-Angel Nieto,circuito de jerez-angel nieto
+322,C007,Circuito de Jerez,circuito de jerez
+323,C007,Jerez,jerez
+324,C008,Sirkuit Assen,sirkuit assen
+325,C008,TT Circuit Assen,tt circuit assen
+326,C008,The Cathedral of Speed,the cathedral of speed
+327,C008,Assen,assen
+328,C009,Sirkuit Internasional Ayrton Senna,sirkuit internasional ayrton senna
+329,C009,Autodromo Internacional Ayrton Senna,autodromo internacional ayrton senna
+330,C009,Sirkuit Goiania,sirkuit goiania
+331,C009,Goiania,goiania
+332,C010,Sirkuit Ricardo Tormo,sirkuit ricardo tormo
+333,C010,Circuit Ricardo Tormo,circuit ricardo tormo
+334,C010,Sirkuit Valencia,sirkuit valencia
+335,C010,MotoGP Valencia,motogp valencia
+336,C010,GP Valencia,gp valencia
+337,C010,Valencia,valencia
+338,C011,Sirkuit Zandvoort,sirkuit zandvoort
+339,C011,Circuit Zandvoort,circuit zandvoort
+340,C011,Zandvoort,zandvoort
+341,C012,Sirkuit Barcelona-Catalunya,sirkuit barcelona-catalunya
+342,C012,Circuit de Barcelona-Catalunya,circuit de barcelona-catalunya
+343,C012,Sirkuit Catalunya,sirkuit catalunya
+344,C012,MotoGP Catalunya,motogp catalunya
+345,C012,GP Catalunya,gp catalunya
+346,C012,Catalunya,catalunya
+347,C013,Sirkuit Red Bull Ring,sirkuit red bull ring
+348,C013,Red Bull Ring,red bull ring
+349,C013,Sirkuit Spielberg,sirkuit spielberg
+350,C013,Spielberg,spielberg
+351,C013,MotoGP Austria,motogp austria
+352,C013,GP Austria,gp austria
+353,C014,Sirkuit Phillip Island,sirkuit phillip island
+354,C014,Phillip Island Grand Prix Circuit,phillip island grand prix circuit
+355,C014,Phillip Island,phillip island
+356,C014,MotoGP Australia,motogp australia
+357,C014,GP Australia,gp australia
+358,C015,Sirkuit Balaton Park,sirkuit balaton park
+359,C015,Balaton Park Circuit,balaton park circuit
+360,C015,Balaton Park,balaton park
+361,C015,MotoGP Hungaria,motogp hungaria
+362,C015,GP Hungaria,gp hungaria
+363,C016,Sirkuit Internasional Buriram,sirkuit internasional buriram
+364,C016,Chang International Circuit,chang international circuit
+365,C016,Sirkuit Buriram,sirkuit buriram
+366,C016,MotoGP Thailand,motogp thailand
+367,C016,GP Thailand,gp thailand
+368,C016,Buriram,buriram
+369,C017,Sirkuit Bugatti Le Mans,sirkuit bugatti le mans
+370,C017,Bugatti Circuit,bugatti circuit
+371,C017,Sirkuit Le Mans,sirkuit le mans
+372,C017,MotoGP Prancis,motogp prancis
+373,C017,GP Prancis,gp prancis
+374,C017,Le Mans,le mans
+375,C018,Autodromo Internazionale del Mugello,autodromo internazionale del mugello
+376,C018,Sirkuit Mugello,sirkuit mugello
+377,C018,MotoGP Mugello,motogp mugello
+378,C018,Mugello,mugello
+379,C019,Misano World Circuit Marco Simoncelli,misano world circuit marco simoncelli
+380,C019,Sirkuit Misano,sirkuit misano
+381,C019,MotoGP San Marino,motogp san marino
+382,C019,GP San Marino,gp san marino
+383,C019,Misano,misano
+384,C020,Sirkuit Internasional Lusail,sirkuit internasional lusail
+385,C020,Lusail International Circuit,lusail international circuit
+386,C020,Sirkuit Lusail,sirkuit lusail
+387,C020,Sirkuit Losail,sirkuit losail
+388,C020,MotoGP Qatar,motogp qatar
+389,C020,GP Qatar,gp qatar
+390,C020,Lusail,lusail

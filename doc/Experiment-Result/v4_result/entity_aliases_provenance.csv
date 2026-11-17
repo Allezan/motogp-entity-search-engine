@@ -1,0 +1,391 @@
+alias_id,entity_id,canonical_name,category,alias,normalized_alias,primary_source,appears_in_corpus_60_docs
+1,R001,Marc Marquez,Rider,Marc Marquez,marc marquez,2_Official_MotoGP_com,1
+2,R001,Marc Marquez,Rider,Marquez,marquez,1_Corpus_60_Docs,1
+3,R001,Marc Marquez,Rider,MM93,mm93,2_Official_MotoGP_com,0
+4,R001,Marc Marquez,Rider,The Baby Alien,the baby alien,3_External_Wikipedia_Crash_Motorsport,0
+5,R002,Jorge Martin,Rider,Jorge Martin,jorge martin,2_Official_MotoGP_com,1
+6,R002,Jorge Martin,Rider,Martin,martin,1_Corpus_60_Docs,1
+7,R002,Jorge Martin,Rider,JM89,jm89,2_Official_MotoGP_com,0
+8,R002,Jorge Martin,Rider,Martinator,martinator,3_External_Wikipedia_Crash_Motorsport,1
+9,R002,Jorge Martin,Rider,The Martinator,the martinator,3_External_Wikipedia_Crash_Motorsport,1
+10,R003,Marco Bezzecchi,Rider,Marco Bezzecchi,marco bezzecchi,2_Official_MotoGP_com,1
+11,R003,Marco Bezzecchi,Rider,Bezzecchi,bezzecchi,1_Corpus_60_Docs,1
+12,R003,Marco Bezzecchi,Rider,MB72,mb72,2_Official_MotoGP_com,0
+13,R003,Marco Bezzecchi,Rider,The Bezz,the bezz,3_External_Wikipedia_Crash_Motorsport,1
+14,R003,Marco Bezzecchi,Rider,Marc Bezzecchi,marc bezzecchi,1_Corpus_60_Docs,1
+15,R004,Francesco Bagnaia,Rider,Francesco Bagnaia,francesco bagnaia,2_Official_MotoGP_com,1
+16,R004,Francesco Bagnaia,Rider,Pecco Bagnaia,pecco bagnaia,3_External_Wikipedia_Crash_Motorsport,1
+17,R004,Francesco Bagnaia,Rider,Bagnaia,bagnaia,1_Corpus_60_Docs,1
+18,R004,Francesco Bagnaia,Rider,Pecco,pecco,3_External_Wikipedia_Crash_Motorsport,1
+19,R004,Francesco Bagnaia,Rider,FB63,fb63,2_Official_MotoGP_com,0
+20,R005,Alex Marquez,Rider,Alex Marquez,alex marquez,2_Official_MotoGP_com,1
+21,R005,Alex Marquez,Rider,Marquez,marquez,1_Corpus_60_Docs,1
+22,R005,Alex Marquez,Rider,AM73,am73,2_Official_MotoGP_com,0
+23,R006,Raul Fernandez,Rider,Raul Fernandez,raul fernandez,2_Official_MotoGP_com,1
+24,R006,Raul Fernandez,Rider,Fernandez,fernandez,1_Corpus_60_Docs,1
+25,R006,Raul Fernandez,Rider,RF25,rf25,2_Official_MotoGP_com,0
+26,R007,Ai Ogura,Rider,Ai Ogura,ai ogura,2_Official_MotoGP_com,1
+27,R007,Ai Ogura,Rider,Ogura,ogura,1_Corpus_60_Docs,1
+28,R007,Ai Ogura,Rider,AO79,ao79,2_Official_MotoGP_com,0
+29,R008,Fabio Quartararo,Rider,Fabio Quartararo,fabio quartararo,2_Official_MotoGP_com,1
+30,R008,Fabio Quartararo,Rider,Quartararo,quartararo,1_Corpus_60_Docs,1
+31,R008,Fabio Quartararo,Rider,FQ20,fq20,2_Official_MotoGP_com,0
+32,R008,Fabio Quartararo,Rider,El Diablo,el diablo,3_External_Wikipedia_Crash_Motorsport,1
+33,R009,Pedro Acosta,Rider,Pedro Acosta,pedro acosta,2_Official_MotoGP_com,1
+34,R009,Pedro Acosta,Rider,Acosta,acosta,1_Corpus_60_Docs,1
+35,R009,Pedro Acosta,Rider,PA37,pa37,2_Official_MotoGP_com,0
+36,R009,Pedro Acosta,Rider,El Tiburon,el tiburon,3_External_Wikipedia_Crash_Motorsport,0
+37,R010,Enea Bastianini,Rider,Enea Bastianini,enea bastianini,2_Official_MotoGP_com,1
+38,R010,Enea Bastianini,Rider,Bastianini,bastianini,1_Corpus_60_Docs,1
+39,R010,Enea Bastianini,Rider,EB23,eb23,2_Official_MotoGP_com,0
+40,R010,Enea Bastianini,Rider,La Bestia,la bestia,3_External_Wikipedia_Crash_Motorsport,0
+41,R010,Enea Bastianini,Rider,Bestia,bestia,3_External_Wikipedia_Crash_Motorsport,0
+42,R011,Fermin Aldeguer,Rider,Fermin Aldeguer,fermin aldeguer,2_Official_MotoGP_com,1
+43,R011,Fermin Aldeguer,Rider,Aldeguer,aldeguer,1_Corpus_60_Docs,1
+44,R011,Fermin Aldeguer,Rider,FA54,fa54,2_Official_MotoGP_com,0
+45,R011,Fermin Aldeguer,Rider,Alseguer,alseguer,1_Corpus_60_Docs,1
+46,R012,Fabio Di Giannantonio,Rider,Fabio Di Giannantonio,fabio di giannantonio,2_Official_MotoGP_com,1
+47,R012,Fabio Di Giannantonio,Rider,Di Giannantonio,di giannantonio,1_Corpus_60_Docs,1
+48,R012,Fabio Di Giannantonio,Rider,Giannantonio,giannantonio,1_Corpus_60_Docs,1
+49,R012,Fabio Di Giannantonio,Rider,Diggia,diggia,3_External_Wikipedia_Crash_Motorsport,0
+50,R012,Fabio Di Giannantonio,Rider,FD49,fd49,2_Official_MotoGP_com,0
+51,R013,Franco Morbidelli,Rider,Franco Morbidelli,franco morbidelli,2_Official_MotoGP_com,1
+52,R013,Franco Morbidelli,Rider,Morbidelli,morbidelli,1_Corpus_60_Docs,1
+53,R013,Franco Morbidelli,Rider,FM21,fm21,2_Official_MotoGP_com,0
+54,R013,Franco Morbidelli,Rider,Franky,franky,3_External_Wikipedia_Crash_Motorsport,0
+55,R014,Luca Marini,Rider,Luca Marini,luca marini,2_Official_MotoGP_com,1
+56,R014,Luca Marini,Rider,Marini,marini,1_Corpus_60_Docs,1
+57,R014,Luca Marini,Rider,LM10,lm10,2_Official_MotoGP_com,0
+58,R015,Maverick Vinales,Rider,Maverick Vinales,maverick vinales,2_Official_MotoGP_com,1
+59,R015,Maverick Vinales,Rider,Vinales,vinales,1_Corpus_60_Docs,1
+60,R015,Maverick Vinales,Rider,MV12,mv12,2_Official_MotoGP_com,0
+61,R015,Maverick Vinales,Rider,Top Gun,top gun,3_External_Wikipedia_Crash_Motorsport,0
+62,R016,Joan Mir,Rider,Joan Mir,joan mir,2_Official_MotoGP_com,1
+63,R016,Joan Mir,Rider,Mir,mir,1_Corpus_60_Docs,1
+64,R016,Joan Mir,Rider,JM36,jm36,2_Official_MotoGP_com,0
+65,R017,Johann Zarco,Rider,Johann Zarco,johann zarco,2_Official_MotoGP_com,1
+66,R017,Johann Zarco,Rider,Zarco,zarco,1_Corpus_60_Docs,1
+67,R017,Johann Zarco,Rider,JZ5,jz5,2_Official_MotoGP_com,0
+68,R018,Alex Rins,Rider,Alex Rins,alex rins,2_Official_MotoGP_com,1
+69,R018,Alex Rins,Rider,Rins,rins,1_Corpus_60_Docs,1
+70,R018,Alex Rins,Rider,AR42,ar42,2_Official_MotoGP_com,0
+71,R019,Brad Binder,Rider,Brad Binder,brad binder,2_Official_MotoGP_com,1
+72,R019,Brad Binder,Rider,Binder,binder,1_Corpus_60_Docs,1
+73,R019,Brad Binder,Rider,BB33,bb33,2_Official_MotoGP_com,0
+74,R020,Jack Miller,Rider,Jack Miller,jack miller,2_Official_MotoGP_com,1
+75,R020,Jack Miller,Rider,Miller,miller,1_Corpus_60_Docs,1
+76,R020,Jack Miller,Rider,JM43,jm43,2_Official_MotoGP_com,0
+77,R020,Jack Miller,Rider,Thriller Miller,thriller miller,3_External_Wikipedia_Crash_Motorsport,0
+78,R021,Toprak Razgatlioglu,Rider,Toprak Razgatlioglu,toprak razgatlioglu,2_Official_MotoGP_com,1
+79,R021,Toprak Razgatlioglu,Rider,Toprak Razgatliolu,toprak razgatliolu,1_Corpus_60_Docs,1
+80,R021,Toprak Razgatlioglu,Rider,Razgatlioglu,razgatlioglu,1_Corpus_60_Docs,1
+81,R021,Toprak Razgatlioglu,Rider,Toprak,toprak,1_Corpus_60_Docs,1
+82,R021,Toprak Razgatlioglu,Rider,TR07,tr07,2_Official_MotoGP_com,0
+83,R021,Toprak Razgatlioglu,Rider,El Turco,el turco,3_External_Wikipedia_Crash_Motorsport,0
+84,R022,Diogo Moreira,Rider,Diogo Moreira,diogo moreira,2_Official_MotoGP_com,1
+85,R022,Diogo Moreira,Rider,Diego Moreira,diego moreira,1_Corpus_60_Docs,1
+86,R022,Diogo Moreira,Rider,Moreira,moreira,1_Corpus_60_Docs,1
+87,R022,Diogo Moreira,Rider,DM10,dm10,2_Official_MotoGP_com,0
+88,R023,Pol Espargaro,Rider,Pol Espargaro,pol espargaro,2_Official_MotoGP_com,1
+89,R023,Pol Espargaro,Rider,Espargaro,espargaro,1_Corpus_60_Docs,1
+90,R023,Pol Espargaro,Rider,PE44,pe44,2_Official_MotoGP_com,0
+91,R023,Pol Espargaro,Rider,Polyccio,polyccio,3_External_Wikipedia_Crash_Motorsport,0
+92,R024,Aleix Espargaro,Rider,Aleix Espargaro,aleix espargaro,2_Official_MotoGP_com,1
+93,R024,Aleix Espargaro,Rider,Espargaro,espargaro,1_Corpus_60_Docs,1
+94,R024,Aleix Espargaro,Rider,AE41,ae41,2_Official_MotoGP_com,0
+95,R024,Aleix Espargaro,Rider,Il Capitano,il capitano,3_External_Wikipedia_Crash_Motorsport,0
+96,R025,Lorenzo Savadori,Rider,Lorenzo Savadori,lorenzo savadori,2_Official_MotoGP_com,1
+97,R025,Lorenzo Savadori,Rider,Savadori,savadori,1_Corpus_60_Docs,1
+98,R025,Lorenzo Savadori,Rider,LS32,ls32,2_Official_MotoGP_com,0
+99,R026,Iker Lecuona,Rider,Iker Lecuona,iker lecuona,2_Official_MotoGP_com,1
+100,R026,Iker Lecuona,Rider,Lecuona,lecuona,1_Corpus_60_Docs,1
+101,R026,Iker Lecuona,Rider,IL27,il27,2_Official_MotoGP_com,0
+102,R027,Cal Crutchlow,Rider,Cal Crutchlow,cal crutchlow,2_Official_MotoGP_com,1
+103,R027,Cal Crutchlow,Rider,Crutchlow,crutchlow,1_Corpus_60_Docs,1
+104,R027,Cal Crutchlow,Rider,CC35,cc35,2_Official_MotoGP_com,0
+105,R028,Augusto Fernandez,Rider,Augusto Fernandez,augusto fernandez,2_Official_MotoGP_com,1
+106,R028,Augusto Fernandez,Rider,August Fernandez,august fernandez,1_Corpus_60_Docs,1
+107,R028,Augusto Fernandez,Rider,Fernandez,fernandez,1_Corpus_60_Docs,1
+108,R028,Augusto Fernandez,Rider,AF37,af37,2_Official_MotoGP_com,0
+109,R029,Mario Suryo Aji,Rider,Mario Suryo Aji,mario suryo aji,2_Official_MotoGP_com,1
+110,R029,Mario Suryo Aji,Rider,Mario Aji,mario aji,1_Corpus_60_Docs,1
+111,R029,Mario Suryo Aji,Rider,Super Mario,super mario,3_External_Wikipedia_Crash_Motorsport,0
+112,R029,Mario Suryo Aji,Rider,MA64,ma64,2_Official_MotoGP_com,0
+113,R030,Veda Ega Pratama,Rider,Veda Ega Pratama,veda ega pratama,2_Official_MotoGP_com,1
+114,R030,Veda Ega Pratama,Rider,Veda Pratama,veda pratama,1_Corpus_60_Docs,1
+115,R030,Veda Ega Pratama,Rider,Veda Ega,veda ega,1_Corpus_60_Docs,1
+116,R030,Veda Ega Pratama,Rider,Veda,veda,1_Corpus_60_Docs,1
+117,R030,Veda Ega Pratama,Rider,VP54,vp54,2_Official_MotoGP_com,0
+118,R031,David Alonso,Rider,David Alonso,david alonso,2_Official_MotoGP_com,1
+119,R031,David Alonso,Rider,Alonso,alonso,1_Corpus_60_Docs,1
+120,R031,David Alonso,Rider,DA80,da80,2_Official_MotoGP_com,0
+121,R032,David Almansa,Rider,David Almansa,david almansa,2_Official_MotoGP_com,1
+122,R032,David Almansa,Rider,Almansa,almansa,1_Corpus_60_Docs,1
+123,R032,David Almansa,Rider,DA22,da22,2_Official_MotoGP_com,0
+124,R033,Izan Guevara,Rider,Izan Guevara,izan guevara,2_Official_MotoGP_com,1
+125,R033,Izan Guevara,Rider,Guevara,guevara,1_Corpus_60_Docs,1
+126,R033,Izan Guevara,Rider,IG28,ig28,2_Official_MotoGP_com,0
+127,R034,Daniel Holgado,Rider,Daniel Holgado,daniel holgado,2_Official_MotoGP_com,1
+128,R034,Daniel Holgado,Rider,Dani Holgado,dani holgado,1_Corpus_60_Docs,1
+129,R034,Daniel Holgado,Rider,Holgado,holgado,1_Corpus_60_Docs,1
+130,R034,Daniel Holgado,Rider,DH96,dh96,2_Official_MotoGP_com,0
+131,R035,Ivan Ortola,Rider,Ivan Ortola,ivan ortola,2_Official_MotoGP_com,1
+132,R035,Ivan Ortola,Rider,Ortola,ortola,1_Corpus_60_Docs,1
+133,R035,Ivan Ortola,Rider,IO48,io48,2_Official_MotoGP_com,0
+134,R036,Brian Uriarte,Rider,Brian Uriarte,brian uriarte,2_Official_MotoGP_com,1
+135,R036,Brian Uriarte,Rider,Uriarte,uriarte,1_Corpus_60_Docs,1
+136,R036,Brian Uriarte,Rider,BU51,bu51,2_Official_MotoGP_com,0
+137,R037,Valentino Rossi,Rider,Valentino Rossi,valentino rossi,2_Official_MotoGP_com,1
+138,R037,Valentino Rossi,Rider,Rossi,rossi,1_Corpus_60_Docs,1
+139,R037,Valentino Rossi,Rider,The Doctor,the doctor,3_External_Wikipedia_Crash_Motorsport,1
+140,R037,Valentino Rossi,Rider,VR46,vr46,2_Official_MotoGP_com,1
+141,R038,Casey Stoner,Rider,Casey Stoner,casey stoner,2_Official_MotoGP_com,1
+142,R038,Casey Stoner,Rider,Stoner,stoner,1_Corpus_60_Docs,1
+143,R038,Casey Stoner,Rider,CS27,cs27,2_Official_MotoGP_com,0
+144,R039,Jorge Lorenzo,Rider,Jorge Lorenzo,jorge lorenzo,2_Official_MotoGP_com,1
+145,R039,Jorge Lorenzo,Rider,Lorenzo,lorenzo,1_Corpus_60_Docs,1
+146,R039,Jorge Lorenzo,Rider,JL99,jl99,2_Official_MotoGP_com,0
+147,R039,Jorge Lorenzo,Rider,X-Fuera,x-fuera,3_External_Wikipedia_Crash_Motorsport,1
+148,R040,Dani Pedrosa,Rider,Dani Pedrosa,dani pedrosa,2_Official_MotoGP_com,1
+149,R040,Dani Pedrosa,Rider,Pedrosa,pedrosa,1_Corpus_60_Docs,1
+150,R040,Dani Pedrosa,Rider,DP26,dp26,2_Official_MotoGP_com,0
+151,R040,Dani Pedrosa,Rider,The Little Samurai,the little samurai,3_External_Wikipedia_Crash_Motorsport,0
+152,R041,Andrea Dovizioso,Rider,Andrea Dovizioso,andrea dovizioso,2_Official_MotoGP_com,1
+153,R041,Andrea Dovizioso,Rider,Dovizioso,dovizioso,1_Corpus_60_Docs,1
+154,R041,Andrea Dovizioso,Rider,Dovi,dovi,3_External_Wikipedia_Crash_Motorsport,0
+155,R041,Andrea Dovizioso,Rider,AD04,ad04,2_Official_MotoGP_com,0
+156,R042,Maximo Quiles,Rider,Maximo Quiles,maximo quiles,2_Official_MotoGP_com,1
+157,R042,Maximo Quiles,Rider,Massimo Quiles,massimo quiles,1_Corpus_60_Docs,1
+158,R042,Maximo Quiles,Rider,Quiles,quiles,1_Corpus_60_Docs,1
+159,R042,Maximo Quiles,Rider,MQ28,mq28,2_Official_MotoGP_com,0
+160,R043,Nicolo Bulega,Rider,Nicolo Bulega,nicolo bulega,2_Official_MotoGP_com,1
+161,R043,Nicolo Bulega,Rider,Bulega,bulega,1_Corpus_60_Docs,1
+162,R043,Nicolo Bulega,Rider,NB11,nb11,2_Official_MotoGP_com,0
+163,R044,Senna Agius,Rider,Senna Agius,senna agius,2_Official_MotoGP_com,1
+164,R044,Senna Agius,Rider,Agius,agius,1_Corpus_60_Docs,1
+165,R044,Senna Agius,Rider,SA81,sa81,2_Official_MotoGP_com,0
+166,R045,Taiyo Furusato,Rider,Taiyo Furusato,taiyo furusato,2_Official_MotoGP_com,1
+167,R045,Taiyo Furusato,Rider,Furusato,furusato,1_Corpus_60_Docs,1
+168,R045,Taiyo Furusato,Rider,TF72,tf72,2_Official_MotoGP_com,0
+169,R046,Alonso Lopez,Rider,Alonso Lopez,alonso lopez,2_Official_MotoGP_com,1
+170,R046,Alonso Lopez,Rider,AL21,al21,2_Official_MotoGP_com,0
+171,R047,Adrian Fernandez,Rider,Adrian Fernandez,adrian fernandez,2_Official_MotoGP_com,1
+172,R047,Adrian Fernandez,Rider,AF31,af31,2_Official_MotoGP_com,0
+173,R048,Jake Dixon,Rider,Jake Dixon,jake dixon,2_Official_MotoGP_com,1
+174,R048,Jake Dixon,Rider,Dixon,dixon,1_Corpus_60_Docs,1
+175,R048,Jake Dixon,Rider,JD96,jd96,2_Official_MotoGP_com,0
+176,R049,Miguel Oliveira,Rider,Miguel Oliveira,miguel oliveira,2_Official_MotoGP_com,0
+177,R049,Miguel Oliveira,Rider,Oliveira,oliveira,2_Official_MotoGP_com,0
+178,R049,Miguel Oliveira,Rider,MO88,mo88,2_Official_MotoGP_com,0
+179,R050,Somkiat Chantra,Rider,Somkiat Chantra,somkiat chantra,2_Official_MotoGP_com,0
+180,R050,Somkiat Chantra,Rider,Chantra,chantra,2_Official_MotoGP_com,0
+181,R050,Somkiat Chantra,Rider,SC35,sc35,2_Official_MotoGP_com,0
+182,T001,Ducati Lenovo Team,Team,Ducati Lenovo Team,ducati lenovo team,2_Official_MotoGP_com,1
+183,T001,Ducati Lenovo Team,Team,Ducati Lenovo,ducati lenovo,1_Corpus_60_Docs,1
+184,T001,Ducati Lenovo Team,Team,Ducati Factory Team,ducati factory team,3_External_Wikipedia_Crash_Motorsport,0
+185,T002,Aprilia Racing,Team,Aprilia Racing,aprilia racing,2_Official_MotoGP_com,1
+186,T002,Aprilia Racing,Team,Aprilia Factory Racing,aprilia factory racing,3_External_Wikipedia_Crash_Motorsport,0
+187,T003,Trackhouse MotoGP Team,Team,Trackhouse MotoGP Team,trackhouse motogp team,2_Official_MotoGP_com,1
+188,T003,Trackhouse MotoGP Team,Team,SuperFile Trackhouse MotoGP Team,superfile trackhouse motogp team,1_Corpus_60_Docs,1
+189,T003,Trackhouse MotoGP Team,Team,SuperFile Trackhouse,superfile trackhouse,1_Corpus_60_Docs,1
+190,T003,Trackhouse MotoGP Team,Team,Tim MotoGP Trackhouse Aprilia,tim motogp trackhouse aprilia,1_Corpus_60_Docs,1
+191,T003,Trackhouse MotoGP Team,Team,Tim MotoGP Trackhouse,tim motogp trackhouse,1_Corpus_60_Docs,1
+192,T003,Trackhouse MotoGP Team,Team,Trackhouse Racing,trackhouse racing,1_Corpus_60_Docs,1
+193,T003,Trackhouse MotoGP Team,Team,Trackhouse Aprilia,trackhouse aprilia,1_Corpus_60_Docs,1
+194,T003,Trackhouse MotoGP Team,Team,Trackhouse MotoGP,trackhouse motogp,1_Corpus_60_Docs,1
+195,T003,Trackhouse MotoGP Team,Team,Trackhouse,trackhouse,1_Corpus_60_Docs,1
+196,T004,Pertamina Enduro VR46 Racing Team,Team,Pertamina Enduro VR46 Racing Team,pertamina enduro vr46 racing team,2_Official_MotoGP_com,1
+197,T004,Pertamina Enduro VR46 Racing Team,Team,Pertamina Enduro VR46 Racing,pertamina enduro vr46 racing,1_Corpus_60_Docs,1
+198,T004,Pertamina Enduro VR46 Racing Team,Team,Pertamina Enduro VR46,pertamina enduro vr46,1_Corpus_60_Docs,1
+199,T004,Pertamina Enduro VR46 Racing Team,Team,Pertamina VR46 Ducati,pertamina vr46 ducati,1_Corpus_60_Docs,1
+200,T004,Pertamina Enduro VR46 Racing Team,Team,VR46 Racing Team,vr46 racing team,1_Corpus_60_Docs,1
+201,T004,Pertamina Enduro VR46 Racing Team,Team,Tim VR46 Racing,tim vr46 racing,2_Official_MotoGP_com,0
+202,T004,Pertamina Enduro VR46 Racing Team,Team,VR46 Ducati,vr46 ducati,1_Corpus_60_Docs,1
+203,T004,Pertamina Enduro VR46 Racing Team,Team,VR46,vr46,2_Official_MotoGP_com,1
+204,T005,Gresini Racing,Team,Gresini Racing MotoGP,gresini racing motogp,2_Official_MotoGP_com,0
+205,T005,Gresini Racing,Team,BK8 Gresini Ducati,bk8 gresini ducati,1_Corpus_60_Docs,1
+206,T005,Gresini Racing,Team,BK8 Gresini Racing,bk8 gresini racing,1_Corpus_60_Docs,1
+207,T005,Gresini Racing,Team,Gresini Racing,gresini racing,2_Official_MotoGP_com,1
+208,T005,Gresini Racing,Team,Gresini Ducati,gresini ducati,1_Corpus_60_Docs,1
+209,T005,Gresini Racing,Team,Gresini,gresini,1_Corpus_60_Docs,1
+210,T006,Red Bull KTM Factory Racing,Team,Red Bull KTM Factory Racing,red bull ktm factory racing,2_Official_MotoGP_com,1
+211,T006,Red Bull KTM Factory Racing,Team,Red Bull KTM,red bull ktm,1_Corpus_60_Docs,1
+212,T007,Red Bull KTM Tech3,Team,Red Bull KTM Tech3,red bull ktm tech3,2_Official_MotoGP_com,1
+213,T007,Red Bull KTM Tech3,Team,Tech3 KTM,tech3 ktm,1_Corpus_60_Docs,1
+214,T007,Red Bull KTM Tech3,Team,Tech3 Racing,tech3 racing,3_External_Wikipedia_Crash_Motorsport,0
+215,T007,Red Bull KTM Tech3,Team,Tech3,tech3,1_Corpus_60_Docs,1
+216,T008,Monster Energy Yamaha MotoGP,Team,Monster Energy Yamaha MotoGP,monster energy yamaha motogp,2_Official_MotoGP_com,0
+217,T008,Monster Energy Yamaha MotoGP,Team,Yamaha Factory Racing,yamaha factory racing,1_Corpus_60_Docs,1
+218,T008,Monster Energy Yamaha MotoGP,Team,Yamaha Monster Energy,yamaha monster energy,1_Corpus_60_Docs,1
+219,T008,Monster Energy Yamaha MotoGP,Team,Monster Yamaha,monster yamaha,1_Corpus_60_Docs,1
+220,T009,Prima Pramac Yamaha,Team,Prima Pramac Yamaha MotoGP,prima pramac yamaha motogp,2_Official_MotoGP_com,0
+221,T009,Prima Pramac Yamaha,Team,Prima Pramac Yamaha,prima pramac yamaha,2_Official_MotoGP_com,0
+222,T009,Prima Pramac Yamaha,Team,Pramac Yamaha,pramac yamaha,1_Corpus_60_Docs,1
+223,T009,Prima Pramac Yamaha,Team,Pramac Racing,pramac racing,1_Corpus_60_Docs,1
+224,T009,Prima Pramac Yamaha,Team,Pramac,pramac,1_Corpus_60_Docs,1
+225,T010,Honda HRC Castrol,Team,Honda HRC Castrol,honda hrc castrol,2_Official_MotoGP_com,1
+226,T010,Honda HRC Castrol,Team,Honda Racing Corporation,honda racing corporation,2_Official_MotoGP_com,0
+227,T010,Honda HRC Castrol,Team,Honda Racing Coorporation,honda racing coorporation,1_Corpus_60_Docs,1
+228,T010,Honda HRC Castrol,Team,Honda HRC,honda hrc,1_Corpus_60_Docs,1
+229,T010,Honda HRC Castrol,Team,Repsol Honda Team,repsol honda team,3_External_Wikipedia_Crash_Motorsport,0
+230,T010,Honda HRC Castrol,Team,Repsol Honda,repsol honda,3_External_Wikipedia_Crash_Motorsport,1
+231,T010,Honda HRC Castrol,Team,HRC,hrc,1_Corpus_60_Docs,1
+232,T011,LCR Honda,Team,Castrol Honda LCR,castrol honda lcr,1_Corpus_60_Docs,1
+233,T011,LCR Honda,Team,Pro Honda LCR,pro honda lcr,1_Corpus_60_Docs,1
+234,T011,LCR Honda,Team,Idemitsu Honda LCR,idemitsu honda lcr,2_Official_MotoGP_com,0
+235,T011,LCR Honda,Team,LCR Honda,lcr honda,2_Official_MotoGP_com,1
+236,T012,Idemitsu Honda Team Asia,Team,Idemitsu Honda Team Asia,idemitsu honda team asia,2_Official_MotoGP_com,1
+237,T012,Idemitsu Honda Team Asia,Team,Honda Team Asia,honda team asia,1_Corpus_60_Docs,1
+238,T013,CFMoto Aspar Team,Team,CFMoto Aspar Team,cfmoto aspar team,2_Official_MotoGP_com,1
+239,T013,CFMoto Aspar Team,Team,CFMOTO Gaviota Aspar Team,cfmoto gaviota aspar team,2_Official_MotoGP_com,0
+240,T013,CFMoto Aspar Team,Team,Aspar Team,aspar team,1_Corpus_60_Docs,1
+241,T013,CFMoto Aspar Team,Team,Aspar,aspar,1_Corpus_60_Docs,1
+242,T014,Liqui Moly Dynavolt Intact GP,Team,Liqui Moly Dynavolt Intact GP,liqui moly dynavolt intact gp,2_Official_MotoGP_com,0
+243,T014,Liqui Moly Dynavolt Intact GP,Team,Liqui Moly Intact GP,liqui moly intact gp,2_Official_MotoGP_com,0
+244,T014,Liqui Moly Dynavolt Intact GP,Team,Intact GP,intact gp,2_Official_MotoGP_com,0
+245,T014,Liqui Moly Dynavolt Intact GP,Team,Liqui Moly,liqui moly,1_Corpus_60_Docs,1
+246,T015,QJMotor Frinsa MSI,Team,QJMotor Frinsa MSI,qjmotor frinsa msi,2_Official_MotoGP_com,0
+247,T015,QJMotor Frinsa MSI,Team,QJMotor Reverte MSI,qjmotor reverte msi,1_Corpus_60_Docs,1
+248,T015,QJMotor Frinsa MSI,Team,MT Helmets - MSI,mt helmets - msi,2_Official_MotoGP_com,0
+249,T015,QJMotor Frinsa MSI,Team,Frinsa MSI,frinsa msi,2_Official_MotoGP_com,0
+250,M001,Ducati,Manufacturer,Ducati Corse,ducati corse,3_External_Wikipedia_Crash_Motorsport,1
+251,M001,Ducati,Manufacturer,Ducati Desmosedici GP,ducati desmosedici gp,3_External_Wikipedia_Crash_Motorsport,1
+252,M001,Ducati,Manufacturer,Desmosedici GP26,desmosedici gp26,3_External_Wikipedia_Crash_Motorsport,1
+253,M001,Ducati,Manufacturer,Desmosedici GP25,desmosedici gp25,3_External_Wikipedia_Crash_Motorsport,0
+254,M001,Ducati,Manufacturer,Desmosedici GP,desmosedici gp,3_External_Wikipedia_Crash_Motorsport,1
+255,M001,Ducati,Manufacturer,Desmosedici,desmosedici,3_External_Wikipedia_Crash_Motorsport,1
+256,M001,Ducati,Manufacturer,Ducati,ducati,2_Official_MotoGP_com,1
+257,M002,Aprilia,Manufacturer,Aprilia RS-GP26,aprilia rs-gp26,3_External_Wikipedia_Crash_Motorsport,0
+258,M002,Aprilia,Manufacturer,Aprilia RS-GP,aprilia rs-gp,3_External_Wikipedia_Crash_Motorsport,1
+259,M002,Aprilia,Manufacturer,RS-GP26,rs-gp26,3_External_Wikipedia_Crash_Motorsport,0
+260,M002,Aprilia,Manufacturer,RS-GP,rs-gp,3_External_Wikipedia_Crash_Motorsport,1
+261,M002,Aprilia,Manufacturer,Aprilia,aprilia,2_Official_MotoGP_com,1
+262,M003,Yamaha,Manufacturer,Yamaha YZR-M1,yamaha yzr-m1,3_External_Wikipedia_Crash_Motorsport,0
+263,M003,Yamaha,Manufacturer,Yamaha V4,yamaha v4,3_External_Wikipedia_Crash_Motorsport,1
+264,M003,Yamaha,Manufacturer,YZR-M1,yzr-m1,3_External_Wikipedia_Crash_Motorsport,1
+265,M003,Yamaha,Manufacturer,Yamaha,yamaha,2_Official_MotoGP_com,1
+266,M004,Honda,Manufacturer,Honda RC213V,honda rc213v,3_External_Wikipedia_Crash_Motorsport,0
+267,M004,Honda,Manufacturer,RC213V,rc213v,3_External_Wikipedia_Crash_Motorsport,0
+268,M004,Honda,Manufacturer,NSF250RW,nsf250rw,3_External_Wikipedia_Crash_Motorsport,0
+269,M004,Honda,Manufacturer,Honda,honda,2_Official_MotoGP_com,1
+270,M005,KTM,Manufacturer,KTM RC16,ktm rc16,3_External_Wikipedia_Crash_Motorsport,0
+271,M005,KTM,Manufacturer,KTM RC250GP,ktm rc250gp,3_External_Wikipedia_Crash_Motorsport,1
+272,M005,KTM,Manufacturer,RC16,rc16,2_Official_MotoGP_com,0
+273,M005,KTM,Manufacturer,RC250GP,rc250gp,3_External_Wikipedia_Crash_Motorsport,1
+274,M005,KTM,Manufacturer,KTM,ktm,2_Official_MotoGP_com,1
+275,M006,CFMoto,Manufacturer,CFMoto V4 SR-RR,cfmoto v4 sr-rr,3_External_Wikipedia_Crash_Motorsport,0
+276,M006,CFMoto,Manufacturer,V4 SR-RR,v4 sr-rr,3_External_Wikipedia_Crash_Motorsport,1
+277,M006,CFMoto,Manufacturer,CFMoto,cfmoto,2_Official_MotoGP_com,1
+278,M007,Kalex,Manufacturer,Kalex Engineering,kalex engineering,3_External_Wikipedia_Crash_Motorsport,0
+279,M007,Kalex,Manufacturer,Kalex,kalex,2_Official_MotoGP_com,1
+280,M008,Triumph,Manufacturer,Triumph Motorcycles,triumph motorcycles,3_External_Wikipedia_Crash_Motorsport,0
+281,M008,Triumph,Manufacturer,Triumph 765,triumph 765,3_External_Wikipedia_Crash_Motorsport,0
+282,M008,Triumph,Manufacturer,Triumph,triumph,2_Official_MotoGP_com,1
+283,M009,Suzuki,Manufacturer,Suzuki Ecstar,suzuki ecstar,3_External_Wikipedia_Crash_Motorsport,0
+284,M009,Suzuki,Manufacturer,Suzuki GSX-RR,suzuki gsx-rr,3_External_Wikipedia_Crash_Motorsport,0
+285,M009,Suzuki,Manufacturer,GSX-RR,gsx-rr,3_External_Wikipedia_Crash_Motorsport,0
+286,M009,Suzuki,Manufacturer,Suzuki,suzuki,2_Official_MotoGP_com,1
+287,M010,QJMotor,Manufacturer,QJMotor,qjmotor,2_Official_MotoGP_com,1
+288,M010,QJMotor,Manufacturer,Qianjiang Motorcycle,qianjiang motorcycle,3_External_Wikipedia_Crash_Motorsport,0
+289,C001,Sirkuit MotorLand Aragon,Circuit,Sirkuit MotorLand Aragon,sirkuit motorland aragon,2_Official_MotoGP_com,1
+290,C001,Sirkuit MotorLand Aragon,Circuit,MotorLand Aragon,motorland aragon,1_Corpus_60_Docs,1
+291,C001,Sirkuit MotorLand Aragon,Circuit,Sirkuit Aragon,sirkuit aragon,1_Corpus_60_Docs,1
+292,C001,Sirkuit MotorLand Aragon,Circuit,Sirkuit MotorLand,sirkuit motorland,1_Corpus_60_Docs,1
+293,C001,Sirkuit MotorLand Aragon,Circuit,MotorLand,motorland,1_Corpus_60_Docs,1
+294,C001,Sirkuit MotorLand Aragon,Circuit,MotoGP Aragon,motogp aragon,3_External_Wikipedia_Crash_Motorsport,1
+295,C001,Sirkuit MotorLand Aragon,Circuit,GP Aragon,gp aragon,3_External_Wikipedia_Crash_Motorsport,1
+296,C001,Sirkuit MotorLand Aragon,Circuit,Grand Prix Aragon,grand prix aragon,3_External_Wikipedia_Crash_Motorsport,1
+297,C001,Sirkuit MotorLand Aragon,Circuit,Aragon,aragon,1_Corpus_60_Docs,1
+298,C002,Sirkuit Silverstone,Circuit,Sirkuit Silverstone,sirkuit silverstone,2_Official_MotoGP_com,1
+299,C002,Sirkuit Silverstone,Circuit,Silverstone Circuit,silverstone circuit,2_Official_MotoGP_com,0
+300,C002,Sirkuit Silverstone,Circuit,Silverstone,silverstone,1_Corpus_60_Docs,1
+301,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,Sirkuit Internasional Pertamina Mandalika,sirkuit internasional pertamina mandalika,2_Official_MotoGP_com,1
+302,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,Pertamina Mandalika International Circuit,pertamina mandalika international circuit,2_Official_MotoGP_com,1
+303,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,Sirkuit Pertamina Mandalika,sirkuit pertamina mandalika,1_Corpus_60_Docs,1
+304,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,Sirkuit Mandalika,sirkuit mandalika,1_Corpus_60_Docs,1
+305,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,MotoGP Mandalika,motogp mandalika,3_External_Wikipedia_Crash_Motorsport,1
+306,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,The Mandalika,the mandalika,1_Corpus_60_Docs,1
+307,C003,Sirkuit Internasional Pertamina Mandalika,Circuit,Mandalika,mandalika,1_Corpus_60_Docs,1
+308,C004,Sirkuit Internasional Sepang,Circuit,Sirkuit Internasional Sepang,sirkuit internasional sepang,2_Official_MotoGP_com,0
+309,C004,Sirkuit Internasional Sepang,Circuit,Sepang International Circuit,sepang international circuit,2_Official_MotoGP_com,0
+310,C004,Sirkuit Internasional Sepang,Circuit,Sirkuit Sepang,sirkuit sepang,1_Corpus_60_Docs,1
+311,C004,Sirkuit Internasional Sepang,Circuit,MotoGP Sepang,motogp sepang,3_External_Wikipedia_Crash_Motorsport,0
+312,C004,Sirkuit Internasional Sepang,Circuit,Sepang,sepang,1_Corpus_60_Docs,1
+313,C005,Sirkuit Mobility Resort Motegi,Circuit,Sirkuit Mobility Resort Motegi,sirkuit mobility resort motegi,2_Official_MotoGP_com,1
+314,C005,Sirkuit Mobility Resort Motegi,Circuit,Mobility Resort Motegi,mobility resort motegi,1_Corpus_60_Docs,1
+315,C005,Sirkuit Mobility Resort Motegi,Circuit,Twin Ring Motegi,twin ring motegi,3_External_Wikipedia_Crash_Motorsport,0
+316,C005,Sirkuit Mobility Resort Motegi,Circuit,Sirkuit Motegi,sirkuit motegi,1_Corpus_60_Docs,1
+317,C005,Sirkuit Mobility Resort Motegi,Circuit,Motegi,motegi,1_Corpus_60_Docs,1
+318,C006,Sirkuit Sachsenring,Circuit,Sirkuit Sachsenring,sirkuit sachsenring,2_Official_MotoGP_com,1
+319,C006,Sirkuit Sachsenring,Circuit,Sachsenring,sachsenring,1_Corpus_60_Docs,1
+320,C007,Sirkuit Jerez,Circuit,Sirkuit Jerez,sirkuit jerez,2_Official_MotoGP_com,0
+321,C007,Sirkuit Jerez,Circuit,Circuito de Jerez-Angel Nieto,circuito de jerez-angel nieto,2_Official_MotoGP_com,0
+322,C007,Sirkuit Jerez,Circuit,Circuito de Jerez,circuito de jerez,2_Official_MotoGP_com,0
+323,C007,Sirkuit Jerez,Circuit,Jerez,jerez,1_Corpus_60_Docs,1
+324,C008,Sirkuit Assen,Circuit,Sirkuit Assen,sirkuit assen,2_Official_MotoGP_com,0
+325,C008,Sirkuit Assen,Circuit,TT Circuit Assen,tt circuit assen,2_Official_MotoGP_com,0
+326,C008,Sirkuit Assen,Circuit,The Cathedral of Speed,the cathedral of speed,3_External_Wikipedia_Crash_Motorsport,0
+327,C008,Sirkuit Assen,Circuit,Assen,assen,1_Corpus_60_Docs,1
+328,C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,Sirkuit Internasional Ayrton Senna,sirkuit internasional ayrton senna,2_Official_MotoGP_com,0
+329,C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,Autodromo Internacional Ayrton Senna,autodromo internacional ayrton senna,2_Official_MotoGP_com,0
+330,C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,Sirkuit Goiania,sirkuit goiania,2_Official_MotoGP_com,0
+331,C009,Sirkuit Internasional Ayrton Senna Goiania,Circuit,Goiania,goiania,1_Corpus_60_Docs,1
+332,C010,Sirkuit Ricardo Tormo Valencia,Circuit,Sirkuit Ricardo Tormo,sirkuit ricardo tormo,2_Official_MotoGP_com,0
+333,C010,Sirkuit Ricardo Tormo Valencia,Circuit,Circuit Ricardo Tormo,circuit ricardo tormo,2_Official_MotoGP_com,0
+334,C010,Sirkuit Ricardo Tormo Valencia,Circuit,Sirkuit Valencia,sirkuit valencia,2_Official_MotoGP_com,0
+335,C010,Sirkuit Ricardo Tormo Valencia,Circuit,MotoGP Valencia,motogp valencia,3_External_Wikipedia_Crash_Motorsport,0
+336,C010,Sirkuit Ricardo Tormo Valencia,Circuit,GP Valencia,gp valencia,3_External_Wikipedia_Crash_Motorsport,0
+337,C010,Sirkuit Ricardo Tormo Valencia,Circuit,Valencia,valencia,1_Corpus_60_Docs,1
+338,C011,Sirkuit Zandvoort,Circuit,Sirkuit Zandvoort,sirkuit zandvoort,2_Official_MotoGP_com,1
+339,C011,Sirkuit Zandvoort,Circuit,Circuit Zandvoort,circuit zandvoort,2_Official_MotoGP_com,0
+340,C011,Sirkuit Zandvoort,Circuit,Zandvoort,zandvoort,1_Corpus_60_Docs,1
+341,C012,Sirkuit Barcelona-Catalunya,Circuit,Sirkuit Barcelona-Catalunya,sirkuit barcelona-catalunya,2_Official_MotoGP_com,0
+342,C012,Sirkuit Barcelona-Catalunya,Circuit,Circuit de Barcelona-Catalunya,circuit de barcelona-catalunya,2_Official_MotoGP_com,0
+343,C012,Sirkuit Barcelona-Catalunya,Circuit,Sirkuit Catalunya,sirkuit catalunya,2_Official_MotoGP_com,0
+344,C012,Sirkuit Barcelona-Catalunya,Circuit,MotoGP Catalunya,motogp catalunya,3_External_Wikipedia_Crash_Motorsport,0
+345,C012,Sirkuit Barcelona-Catalunya,Circuit,GP Catalunya,gp catalunya,3_External_Wikipedia_Crash_Motorsport,1
+346,C012,Sirkuit Barcelona-Catalunya,Circuit,Catalunya,catalunya,1_Corpus_60_Docs,1
+347,C013,Sirkuit Red Bull Ring Spielberg,Circuit,Sirkuit Red Bull Ring,sirkuit red bull ring,2_Official_MotoGP_com,0
+348,C013,Sirkuit Red Bull Ring Spielberg,Circuit,Red Bull Ring,red bull ring,2_Official_MotoGP_com,0
+349,C013,Sirkuit Red Bull Ring Spielberg,Circuit,Sirkuit Spielberg,sirkuit spielberg,2_Official_MotoGP_com,0
+350,C013,Sirkuit Red Bull Ring Spielberg,Circuit,Spielberg,spielberg,2_Official_MotoGP_com,0
+351,C013,Sirkuit Red Bull Ring Spielberg,Circuit,MotoGP Austria,motogp austria,3_External_Wikipedia_Crash_Motorsport,0
+352,C013,Sirkuit Red Bull Ring Spielberg,Circuit,GP Austria,gp austria,3_External_Wikipedia_Crash_Motorsport,1
+353,C014,Sirkuit Phillip Island,Circuit,Sirkuit Phillip Island,sirkuit phillip island,2_Official_MotoGP_com,0
+354,C014,Sirkuit Phillip Island,Circuit,Phillip Island Grand Prix Circuit,phillip island grand prix circuit,2_Official_MotoGP_com,0
+355,C014,Sirkuit Phillip Island,Circuit,Phillip Island,phillip island,2_Official_MotoGP_com,0
+356,C014,Sirkuit Phillip Island,Circuit,MotoGP Australia,motogp australia,3_External_Wikipedia_Crash_Motorsport,0
+357,C014,Sirkuit Phillip Island,Circuit,GP Australia,gp australia,3_External_Wikipedia_Crash_Motorsport,1
+358,C015,Sirkuit Balaton Park,Circuit,Sirkuit Balaton Park,sirkuit balaton park,2_Official_MotoGP_com,0
+359,C015,Sirkuit Balaton Park,Circuit,Balaton Park Circuit,balaton park circuit,2_Official_MotoGP_com,0
+360,C015,Sirkuit Balaton Park,Circuit,Balaton Park,balaton park,2_Official_MotoGP_com,0
+361,C015,Sirkuit Balaton Park,Circuit,MotoGP Hungaria,motogp hungaria,3_External_Wikipedia_Crash_Motorsport,0
+362,C015,Sirkuit Balaton Park,Circuit,GP Hungaria,gp hungaria,3_External_Wikipedia_Crash_Motorsport,1
+363,C016,Sirkuit Internasional Buriram,Circuit,Sirkuit Internasional Buriram,sirkuit internasional buriram,2_Official_MotoGP_com,0
+364,C016,Sirkuit Internasional Buriram,Circuit,Chang International Circuit,chang international circuit,2_Official_MotoGP_com,0
+365,C016,Sirkuit Internasional Buriram,Circuit,Sirkuit Buriram,sirkuit buriram,2_Official_MotoGP_com,0
+366,C016,Sirkuit Internasional Buriram,Circuit,MotoGP Thailand,motogp thailand,3_External_Wikipedia_Crash_Motorsport,0
+367,C016,Sirkuit Internasional Buriram,Circuit,GP Thailand,gp thailand,3_External_Wikipedia_Crash_Motorsport,0
+368,C016,Sirkuit Internasional Buriram,Circuit,Buriram,buriram,2_Official_MotoGP_com,0
+369,C017,Sirkuit Bugatti Le Mans,Circuit,Sirkuit Bugatti Le Mans,sirkuit bugatti le mans,2_Official_MotoGP_com,0
+370,C017,Sirkuit Bugatti Le Mans,Circuit,Bugatti Circuit,bugatti circuit,2_Official_MotoGP_com,0
+371,C017,Sirkuit Bugatti Le Mans,Circuit,Sirkuit Le Mans,sirkuit le mans,2_Official_MotoGP_com,0
+372,C017,Sirkuit Bugatti Le Mans,Circuit,MotoGP Prancis,motogp prancis,3_External_Wikipedia_Crash_Motorsport,0
+373,C017,Sirkuit Bugatti Le Mans,Circuit,GP Prancis,gp prancis,3_External_Wikipedia_Crash_Motorsport,0
+374,C017,Sirkuit Bugatti Le Mans,Circuit,Le Mans,le mans,2_Official_MotoGP_com,0
+375,C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,Autodromo Internazionale del Mugello,autodromo internazionale del mugello,2_Official_MotoGP_com,0
+376,C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,Sirkuit Mugello,sirkuit mugello,2_Official_MotoGP_com,0
+377,C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,MotoGP Mugello,motogp mugello,3_External_Wikipedia_Crash_Motorsport,0
+378,C018,Sirkuit Autodromo Internazionale del Mugello,Circuit,Mugello,mugello,2_Official_MotoGP_com,0
+379,C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,Misano World Circuit Marco Simoncelli,misano world circuit marco simoncelli,2_Official_MotoGP_com,0
+380,C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,Sirkuit Misano,sirkuit misano,2_Official_MotoGP_com,0
+381,C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,MotoGP San Marino,motogp san marino,3_External_Wikipedia_Crash_Motorsport,0
+382,C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,GP San Marino,gp san marino,3_External_Wikipedia_Crash_Motorsport,0
+383,C019,Sirkuit Misano World Circuit Marco Simoncelli,Circuit,Misano,misano,2_Official_MotoGP_com,0
+384,C020,Sirkuit Internasional Lusail,Circuit,Sirkuit Internasional Lusail,sirkuit internasional lusail,2_Official_MotoGP_com,0
+385,C020,Sirkuit Internasional Lusail,Circuit,Lusail International Circuit,lusail international circuit,2_Official_MotoGP_com,0
+386,C020,Sirkuit Internasional Lusail,Circuit,Sirkuit Lusail,sirkuit lusail,2_Official_MotoGP_com,0
+387,C020,Sirkuit Internasional Lusail,Circuit,Sirkuit Losail,sirkuit losail,3_External_Wikipedia_Crash_Motorsport,0
+388,C020,Sirkuit Internasional Lusail,Circuit,MotoGP Qatar,motogp qatar,3_External_Wikipedia_Crash_Motorsport,0
+389,C020,Sirkuit Internasional Lusail,Circuit,GP Qatar,gp qatar,3_External_Wikipedia_Crash_Motorsport,0
+390,C020,Sirkuit Internasional Lusail,Circuit,Lusail,lusail,2_Official_MotoGP_com,0

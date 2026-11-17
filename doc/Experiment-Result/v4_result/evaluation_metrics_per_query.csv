@@ -1,0 +1,13 @@
+query_id,query_group,query_text,detected_entities,baseline_P@5,proposed_P@5,delta_P@5,baseline_P@10,proposed_P@10,delta_P@10,baseline_R@5,proposed_R@5,delta_R@5,baseline_R@10,proposed_R@10,delta_R@10,baseline_AP,proposed_AP,delta_AP
+Q01,Entity - Alias/Nickname,pecco keluhkan fisik di silverstone,C002:Sirkuit Silverstone (Circuit); R004:Francesco Bagnaia (Rider),0.2,0.4,0.2,0.3,0.2,-0.1,0.25,0.5,0.25,0.75,0.5,-0.25,0.4067,0.4961,0.0893
+Q02,Entity - Alias/Nickname,el diablo pindah ke hrc,R008:Fabio Quartararo (Rider); T010:Honda HRC Castrol (Team),1.0,1.0,0.0,0.7,0.7,0.0,0.7143,0.7143,0.0,1.0,1.0,0.0,1.0,0.9214,-0.0786
+Q03,Entity - Alias/Nickname,pembalap baru tim the doctor 2027,R037:Valentino Rossi (Rider),0.2,0.6,0.4,0.1,0.3,0.2,0.3333,1.0,0.6667,0.3333,1.0,0.6667,0.4439,0.9167,0.4727
+Q04,Entity - Alias/Nickname,la bestia gabung tim satelit aprilia,R010:Enea Bastianini (Rider); M002:Aprilia (Manufacturer),0.8,0.6,-0.2,0.5,0.5,0.0,0.8,0.6,-0.2,1.0,1.0,0.0,0.86,0.8444,-0.0156
+Q05,Entity - Canonical Multi-Entity,kemenangan raul fernandez di sirkuit silverstone,C002:Sirkuit Silverstone (Circuit); R006:Raul Fernandez (Rider),0.8,0.8,0.0,0.4,0.5,0.1,0.6667,0.6667,0.0,0.6667,0.8333,0.1667,0.7694,0.8076,0.0381
+Q06,Entity - Canonical Multi-Entity,marc marquez tercepat fp1 motorland aragon,C001:Sirkuit MotorLand Aragon (Circuit); R001:Marc Marquez (Rider),0.8,0.8,0.0,0.4,0.5,0.1,0.8,0.8,0.0,0.8,1.0,0.2,0.7814,0.835,0.0536
+Q07,Entity - Canonical Team (Longest-Match),komposisi pembalap ducati lenovo team 2027,T001:Ducati Lenovo Team (Team),0.6,0.6,0.0,0.3,0.3,0.0,0.75,0.75,0.0,0.75,0.75,0.0,0.7167,0.7351,0.0185
+Q08,Entity - Circuit & Event,persiapan sirkuit mandalika jelang motogp indonesia,C003:Sirkuit Internasional Pertamina Mandalika (Circuit),1.0,1.0,0.0,0.7,0.7,0.0,0.7143,0.7143,0.0,1.0,1.0,0.0,0.9821,1.0,0.0179
+Q09,Entity - Indonesian Riders & Team,kiprah mario aji dan veda pratama bersama honda team asia,T012:Idemitsu Honda Team Asia (Team); R030:Veda Ega Pratama (Rider); R029:Mario Suryo Aji (Rider),1.0,1.0,0.0,0.6,0.6,0.0,0.8333,0.8333,0.0,1.0,1.0,0.0,0.9762,1.0,0.0238
+Q10,Non-Entity (Fallback),perbedaan spesifikasi helm balap motogp dan f1,NONE (Fallback),0.2,0.2,0.0,0.1,0.1,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0
+Q11,Non-Entity (Fallback),alasan motor prototipe motogp tidak cocok untuk harian,NONE (Fallback),0.2,0.2,0.0,0.1,0.1,0.0,1.0,1.0,0.0,1.0,1.0,0.0,1.0,1.0,0.0
+Q12,Non-Entity (Fallback),nasihat cedera pergelangan tangan untuk pembalap f1,NONE (Fallback),0.4,0.4,0.0,0.2,0.2,0.0,1.0,1.0,0.0,1.0,1.0,0.0,0.8333,0.8333,0.0

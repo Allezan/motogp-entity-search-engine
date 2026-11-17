@@ -1,0 +1,10 @@
+scikit-learn
+PySastrawi
+fastapi[standard]
+uvicorn
+pydantic
+pydantic-settings
+psycopg[binary, pool]
+scipy
+numpy
+joblib

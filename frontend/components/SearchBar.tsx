@@ -90,7 +90,7 @@ export default function SearchBar({
           </svg>
           <input
             key={query}
-            type="search"
+            type="text"
             name="q"
             defaultValue={query}
             required

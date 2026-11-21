@@ -8,7 +8,7 @@ An Information Retrieval (IR) web application for searching Indonesian MotoGP ne
 > - **REST API (Backend):** https://motogp-entity-search-backend.vercel.app
 > - **Interactive API Docs (Swagger):** https://motogp-entity-search-backend.vercel.app/docs
 
-![MotoGP Entity-Aware Search Engine — Homepage](doc/preview/home-preview.jpg)
+![MotoGP Entity-Aware Search Engine — Homepage](doc/preview/MotoGP Entity-Aware Search Homepage.png)
 
 ---
 

@@ -1,0 +1,27 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 32 32" width="32" height="32" fill="none">
+  <defs>
+    <clipPath id="tile">
+      <rect width="32" height="32" rx="4" />
+    </clipPath>
+  </defs>
+
+  <g clip-path="url(#tile)">
+    <!-- Carbon Black Editorial Base -->
+    <rect width="32" height="32" fill="#0B0B0E" />
+
+    <!-- Bold Geometric Italic GP Monogram -->
+    <g transform="translate(16 13.5) skewX(-8) translate(-16 -13.5)" fill="#FFFFFF">
+      <!-- Letter G -->
+      <path d="M5.8 6H15V8.8H7.5V18.2H12V15H9.7V12.3H15V19.7L13.7 21H5.8L4.5 19.7V7.3Z" />
+      <!-- Letter P -->
+      <path fill-rule="evenodd" d="M17.5 6H26.2L27.5 7.3V14.2L26.2 15.5H20.5V21H17.5V6ZM20.5 8.8H24.5V12.7H20.5V8.8Z" />
+    </g>
+
+    <!-- MotoGP Crimson Racing Accent Bar -->
+    <rect x="0" y="27.5" width="32" height="4.5" fill="#E10600" />
+  </g>
+
+  <!-- Subtle Frame for Crisp Separation on Dark Browser Tabs -->
+  <rect x="0.5" y="0.5" width="31" height="31" rx="3.5" stroke="#FFFFFF" stroke-opacity="0.14" stroke-width="1" />
+</svg>
+

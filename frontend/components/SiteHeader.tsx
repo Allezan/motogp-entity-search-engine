@@ -17,6 +17,7 @@ export default function SiteHeader({
       <div className="mx-auto flex w-full max-w-6xl items-center justify-between px-4 py-3.5 sm:px-6">
         <Link
           href="/"
+          prefetch={false}
           className="inline-flex items-baseline gap-2 text-left transition-opacity hover:opacity-85"
         >
           <span className="font-display text-base font-extrabold uppercase tracking-[0.14em] text-white">
@@ -43,6 +44,7 @@ export default function SiteHeader({
 
           <Link
             href="/entities"
+            prefetch={false}
             className={`inline-flex items-center gap-2 rounded-sm border px-3 py-1.5 font-display text-xs font-bold uppercase tracking-[0.12em] transition-colors ${
               activeNav === "entities"
                 ? "border-[#E10600] bg-[#E10600] text-white"

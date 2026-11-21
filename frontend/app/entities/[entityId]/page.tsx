@@ -46,6 +46,7 @@ export default async function EntityDetailPage({ params }: Props) {
             </p>
             <Link
               href="/entities"
+              prefetch={false}
               className="mt-4 inline-block font-display text-xs font-bold uppercase tracking-wider text-[#111114] hover:text-[#E10600]"
             >
               ← Kembali ke Kamus Entitas
@@ -73,12 +74,14 @@ export default async function EntityDetailPage({ params }: Props) {
         <div className="mb-4 flex items-center justify-between">
           <Link
             href="/entities"
+            prefetch={false}
             className="font-display text-xs font-bold uppercase tracking-[0.1em] text-zinc-600 transition-colors hover:text-[#E10600]"
           >
             ← Semua Kamus Entitas
           </Link>
           <Link
             href="/"
+            prefetch={false}
             className="font-display text-xs font-bold uppercase tracking-[0.1em] text-zinc-500 transition-colors hover:text-[#111114]"
           >
             Pencarian Utama
@@ -111,6 +114,7 @@ export default async function EntityDetailPage({ params }: Props) {
 
             <Link
               href={`/?q=${encodeURIComponent(entity.name)}`}
+              prefetch={false}
               className="rounded-sm bg-[#E10600] px-5 py-2.5 font-display text-xs font-bold uppercase tracking-[0.12em] text-white transition-colors hover:bg-[#BE0500]"
             >
               Cari Berita tentang {entity.name} →
@@ -143,6 +147,7 @@ export default async function EntityDetailPage({ params }: Props) {
               {entity.aliases.map((al) => (
                 <Link
                   key={al}
+                  prefetch={false}
                   href={`/?q=${encodeURIComponent(al)}`}
                   title={`Cari berita memakai alias "${al}"`}
                   className="rounded-sm border border-zinc-200 bg-[#FAF9F7] px-2.5 py-1 font-mono text-xs text-zinc-700 transition-colors hover:border-[#E10600] hover:bg-white hover:text-[#E10600]"
@@ -167,6 +172,7 @@ export default async function EntityDetailPage({ params }: Props) {
                   >
                     <div className="min-w-0">
                       <Link
+                        prefetch={false}
                         href={`/articles/${encodeURIComponent(d.doc_id)}?from=${encodeURIComponent(`/entities/${entity.entity_id}`)}`}
                         className="font-titillium text-sm font-bold text-[#111114] hover:text-[#E10600]"
                       >

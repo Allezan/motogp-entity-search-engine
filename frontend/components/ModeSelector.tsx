@@ -47,6 +47,7 @@ export default function ModeSelector({
             return (
               <Link
                 key={m.id}
+                prefetch={false}
                 href={buildSearchHref({
                   q: query,
                   mode: m.id,
@@ -72,6 +73,7 @@ export default function ModeSelector({
 
         {/* Toggle IR Telemetry Details via SSR URL query param (Zero JS) */}
         <Link
+          prefetch={false}
           href={buildSearchHref({
             q: query,
             mode: viewMode,
@@ -121,6 +123,7 @@ export default function ModeSelector({
               return (
                 <Link
                   key={p.label}
+                  prefetch={false}
                   href={buildSearchHref({
                     q: query,
                     mode: viewMode,

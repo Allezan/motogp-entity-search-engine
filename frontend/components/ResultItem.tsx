@@ -121,6 +121,7 @@ export default function ResultItem({
         <h2 className="font-titillium text-[17px] font-bold leading-snug text-[#111114]">
           <Link
             href={articleHref}
+            prefetch={false}
             className="transition-colors hover:text-[#E10600]"
           >
             {result.title}
@@ -155,6 +156,7 @@ export default function ResultItem({
         <div className="flex items-center gap-4">
           <Link
             href={articleHref}
+            prefetch={false}
             className="font-display text-xs font-bold uppercase tracking-[0.08em] text-[#E10600] transition-colors hover:text-[#BE0500]"
           >
             Baca Artikel →

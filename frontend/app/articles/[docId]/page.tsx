@@ -52,6 +52,7 @@ export default async function ArticleDetailPage({
             </p>
             <Link
               href={backHref}
+              prefetch={false}
               className="mt-4 inline-block font-display text-xs font-bold uppercase tracking-wider text-[#111114] hover:text-[#E10600]"
             >
               ← Kembali ke Pencarian
@@ -74,6 +75,7 @@ export default async function ArticleDetailPage({
         <div className="mb-4 flex items-center justify-between">
           <Link
             href={backHref}
+            prefetch={false}
             className="font-display text-xs font-bold uppercase tracking-[0.1em] text-zinc-600 transition-colors hover:text-[#E10600]"
           >
             ← Kembali ke Hasil Pencarian
@@ -139,6 +141,7 @@ export default async function ArticleDetailPage({
                   return (
                     <Link
                       key={ent.entity_id}
+                      prefetch={false}
                       href={`/entities/${encodeURIComponent(ent.entity_id)}`}
                       className={`group inline-flex items-center gap-1.5 rounded-sm border border-zinc-200 border-l-2 bg-white px-2.5 py-1 text-xs transition-colors hover:border-zinc-400 ${cat.borderLeftClass}`}
                     >

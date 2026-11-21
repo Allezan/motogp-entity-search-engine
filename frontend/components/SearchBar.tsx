@@ -102,6 +102,7 @@ export default function SearchBar({
           {query && (
             <Link
               href={buildSearchHref({ mode, alpha, beta, details: showDetails })}
+              prefetch={false}
               aria-label="Bersihkan pencarian"
               title="Kembali ke beranda"
               className="absolute right-2.5 flex h-6 w-6 items-center justify-center rounded-sm text-zinc-400 transition-colors hover:bg-zinc-100 hover:text-zinc-700"
@@ -127,6 +128,7 @@ export default function SearchBar({
           {EXAMPLE_QUERIES.map((item) => (
             <Link
               key={item.query}
+              prefetch={false}
               href={buildSearchHref({
                 q: item.query,
                 mode,

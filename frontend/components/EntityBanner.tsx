@@ -48,6 +48,7 @@ export default function EntityBanner({
               return (
                 <Link
                   key={ent.entity_id}
+                  prefetch={false}
                   href={`/entities/${encodeURIComponent(ent.entity_id)}`}
                   title={`Buka profil & artikel terkait ${ent.name}`}
                   className={`group inline-flex items-center gap-2 rounded-sm border border-zinc-200 border-l-2 bg-[#FAF9F7] px-2.5 py-1 text-left transition-colors hover:border-zinc-400 hover:bg-white ${cat.borderLeftClass}`}

@@ -79,6 +79,7 @@ export default async function EntitiesPage({ searchParams }: Props) {
 
             <Link
               href="/"
+              prefetch={false}
               className="font-display text-xs font-bold uppercase tracking-[0.12em] text-zinc-300 transition-colors hover:text-white"
             >
               ← Kembali ke Pencarian
@@ -99,6 +100,7 @@ export default async function EntitiesPage({ searchParams }: Props) {
                 return (
                   <Link
                     key={cat}
+                    prefetch={false}
                     href={href}
                     className={`relative pb-2.5 pt-1 font-display text-sm font-bold uppercase tracking-[0.1em] transition-colors ${
                       active
@@ -163,6 +165,7 @@ export default async function EntitiesPage({ searchParams }: Props) {
               </p>
               {filterQ && (
                 <Link
+                  prefetch={false}
                   href={
                     category !== "All"
                       ? `/entities?category=${encodeURIComponent(category)}`
@@ -186,6 +189,7 @@ export default async function EntitiesPage({ searchParams }: Props) {
                   return (
                     <Link
                       key={ent.entity_id}
+                      prefetch={false}
                       href={`/entities/${encodeURIComponent(ent.entity_id)}`}
                       className={`group flex flex-col justify-between rounded-sm border border-zinc-200 border-l-[3px] bg-white p-4 transition-colors hover:border-zinc-400 ${cat.borderLeftClass}`}
                     >

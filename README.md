@@ -170,7 +170,7 @@ motogp-entity-search-engine/
 │   │   └── schemas.py      # Pydantic response models
 │   ├── artifacts/
 │   │   └── index.joblib    # Prebuilt v5 from-scratch index artifact
-│   ├── scripts/            # build_index.py, init_db.py
+│   ├── scripts/            # build_index.py
 │   ├── requirements.txt
 │   └── .env.example
 ├── frontend/
@@ -183,8 +183,6 @@ motogp-entity-search-engine/
 │   ├── lib/                    # Server API client, types, formatters
 │   ├── public/                 # MotoGP hero background & logo
 │   └── .env.local.example
-├── database/
-│   └── schema.sql              # PostgreSQL schema DDL
 ├── doc/
 │   ├── corpus(combined)/       # Original Excel corpus
 │   └── Experiment-Result/      # v2, v3, v4, and v5 evaluation CSV outputs

@@ -2,3 +2,7 @@
 /task-requirements/
 /colaboratory/
 .env
+.venv/
+venv/
+__pycache__/
+*.py[cod]

@@ -2,9 +2,11 @@ from fastapi import APIRouter, Depends
 from app.api.deps import get_search_service
 from app.core import db
 from app.schemas import HealthResponse
+from app.services.indexer import ENGINE_NAME
 from app.services.search import SearchService
 
 router = APIRouter(tags=["health"])
+
 
 @router.get("/health", response_model=HealthResponse)
 def health(service: SearchService = Depends(get_search_service)):
@@ -13,4 +15,5 @@ def health(service: SearchService = Depends(get_search_service)):
         status="ok" if service.ready else "degraded",
         database="ok" if database_ok else "unavailable",
         index_ready=service.ready,
+        engine=service.artifact.engine if service.artifact else ENGINE_NAME,
     )

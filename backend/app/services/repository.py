@@ -2,12 +2,21 @@ from __future__ import annotations
 from typing import Any, Dict, List, Optional, Sequence, Tuple
 import psycopg
 
+
 # ---------- documents ----------
 def fetch_documents_for_index(conn: psycopg.Connection) -> List[Dict[str, Any]]:
     return conn.execute(
         "SELECT doc_id, title, published_at, media, topic, url, author, content, processed_text "
         "FROM documents ORDER BY doc_id"
     ).fetchall()
+
+
+def fetch_document_entities_for_index(conn: psycopg.Connection) -> List[Dict[str, Any]]:
+    return conn.execute(
+        "SELECT doc_id, entity_id, mention_count "
+        "FROM document_entities WHERE mention_count >= 1 ORDER BY doc_id, entity_id"
+    ).fetchall()
+
 
 def list_documents(
     conn: psycopg.Connection, limit: int, offset: int, media: Optional[str]
@@ -24,12 +33,14 @@ def list_documents(
     ).fetchall()
     return rows, total
 
+
 def get_document(conn: psycopg.Connection, doc_id: str) -> Optional[Dict[str, Any]]:
     return conn.execute(
         "SELECT doc_id, title, published_at, media, topic, url, author, content "
         "FROM documents WHERE doc_id = %s",
         [doc_id],
     ).fetchone()
+
 
 def get_document_entities(conn: psycopg.Connection, doc_id: str) -> List[Dict[str, Any]]:
     return conn.execute(
@@ -38,6 +49,7 @@ def get_document_entities(conn: psycopg.Connection, doc_id: str) -> List[Dict[st
         "WHERE de.doc_id = %s ORDER BY de.mention_count DESC, e.canonical_name",
         [doc_id],
     ).fetchall()
+
 
 def upsert_documents(conn: psycopg.Connection, docs: Sequence[Dict[str, Any]]) -> int:
     with conn.cursor() as cur:
@@ -54,6 +66,7 @@ def upsert_documents(conn: psycopg.Connection, docs: Sequence[Dict[str, Any]]) -
         )
     return len(docs)
 
+
 # ---------- entities ----------
 def fetch_entities_and_aliases(
     conn: psycopg.Connection, statuses: Sequence[str] = ()
@@ -61,28 +74,61 @@ def fetch_entities_and_aliases(
     """Entity dictionary for the indexer; optionally restricted to given verification_status values."""
     if statuses:
         entities = conn.execute(
-            "SELECT entity_id, canonical_name, category FROM entities "
-            "WHERE verification_status = ANY(%s) ORDER BY entity_id",
+            "SELECT entity_id, canonical_name, category, description, source_url, verification_status "
+            "FROM entities WHERE verification_status = ANY(%s) ORDER BY entity_id",
             [list(statuses)],
         ).fetchall()
     else:
         entities = conn.execute(
-            "SELECT entity_id, canonical_name, category FROM entities ORDER BY entity_id"
+            "SELECT entity_id, canonical_name, category, description, source_url, verification_status "
+            "FROM entities ORDER BY entity_id"
         ).fetchall()
-    aliases = conn.execute("SELECT entity_id, alias, normalized_alias FROM entity_aliases").fetchall()
+    aliases = conn.execute(
+        "SELECT entity_id, alias, normalized_alias FROM entity_aliases ORDER BY alias_id"
+    ).fetchall()
     return entities, aliases
+
 
 def list_entities(conn: psycopg.Connection, category: Optional[str]) -> List[Dict[str, Any]]:
     where, params = "", []
     if category:
-        where, params = "WHERE e.category = %s", [category]
+        where, params = "WHERE e.category ILIKE %s", [category]
     return conn.execute(
-        "SELECT e.entity_id, e.canonical_name AS name, e.category, e.description, e.verification_status, "
-        "       COALESCE(array_agg(DISTINCT a.alias) FILTER (WHERE a.alias IS NOT NULL), ARRAY[]::text[]) AS aliases "
+        "SELECT e.entity_id, e.canonical_name AS name, e.category, e.description, e.source_url, "
+        "       e.verification_status, "
+        "       COALESCE(array_agg(DISTINCT a.alias) FILTER (WHERE a.alias IS NOT NULL), ARRAY[]::text[]) AS aliases, "
+        "       COALESCE((SELECT COUNT(*) FROM document_entities de WHERE de.entity_id = e.entity_id), 0) AS document_count "
         f"FROM entities e LEFT JOIN entity_aliases a USING (entity_id) {where} "
         "GROUP BY e.entity_id ORDER BY e.category, e.canonical_name",
         params,
     ).fetchall()
+
+
+def get_entity_detail(conn: psycopg.Connection, entity_id: str) -> Optional[Dict[str, Any]]:
+    row = conn.execute(
+        "SELECT e.entity_id, e.canonical_name AS name, e.category, e.description, e.source_url, "
+        "       e.verification_status, "
+        "       COALESCE(array_agg(DISTINCT a.alias) FILTER (WHERE a.alias IS NOT NULL), ARRAY[]::text[]) AS aliases "
+        "FROM entities e LEFT JOIN entity_aliases a USING (entity_id) "
+        "WHERE e.entity_id = %s GROUP BY e.entity_id",
+        [entity_id],
+    ).fetchone()
+    if row is None:
+        return None
+    docs = conn.execute(
+        "SELECT d.doc_id, d.title, d.media, d.published_at, d.url, de.mention_count "
+        "FROM document_entities de JOIN documents d USING (doc_id) "
+        "WHERE de.entity_id = %s ORDER BY de.mention_count DESC, d.doc_id",
+        [entity_id],
+    ).fetchall()
+    for d in docs:
+        pub = d.get("published_at")
+        if hasattr(pub, "isoformat"):
+            d["published_at"] = pub.isoformat()
+    row["document_count"] = len(docs)
+    row["documents"] = docs
+    return row
+
 
 def upsert_entity(
     conn: psycopg.Connection, entity_id: str, name: str, category: str,
@@ -102,6 +148,7 @@ def upsert_entity(
             [entity_id, alias, normalize(alias), entity_id, normalize(alias)],
         )
 
+
 def replace_document_entities(conn: psycopg.Connection, rows: Sequence[tuple]) -> None:
     conn.execute("DELETE FROM document_entities")
     if rows:
@@ -111,12 +158,14 @@ def replace_document_entities(conn: psycopg.Connection, rows: Sequence[tuple]) -
                 list(rows),
             )
 
+
 # ---------- evaluation ----------
 _EVAL_SELECT = (
     "SELECT q.query_id, q.query_text, "
     "       COALESCE(array_agg(j.doc_id ORDER BY j.doc_id) FILTER (WHERE j.relevance > 0), ARRAY[]::text[]) AS relevant_doc_ids "
     "FROM evaluation_queries q LEFT JOIN relevance_judgments j USING (query_id) "
 )
+
 
 def list_eval_queries(conn: psycopg.Connection) -> List[Dict[str, Any]]:
     return conn.execute(_EVAL_SELECT + "GROUP BY q.query_id ORDER BY q.query_id").fetchall()
@@ -134,6 +183,7 @@ def create_eval_query(conn: psycopg.Connection, query_text: str, relevant_doc_id
                 [(qid, d) for d in ids],
             )
     return {"query_id": qid, "query_text": query_text, "relevant_doc_ids": ids}
+
 
 def delete_eval_query(conn: psycopg.Connection, query_id: int) -> bool:
     return conn.execute("DELETE FROM evaluation_queries WHERE query_id = %s", [query_id]).rowcount > 0

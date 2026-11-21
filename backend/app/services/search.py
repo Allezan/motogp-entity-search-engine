@@ -1,22 +1,34 @@
 from __future__ import annotations
 import logging
-import math
 from typing import Any, Dict, List, Optional, Tuple
-import numpy as np
-from sklearn.metrics.pairwise import cosine_similarity
 from app.core.config import Settings
-from app.services.indexer import IndexArtifact, load_artifact
+from app.services.indexer import (
+    IndexArtifact,
+    cosine_similarity,
+    load_artifact,
+    tfidf_vector,
+    vector_length,
+)
 from app.services.preprocessing import TextPreprocessor
 
 logger = logging.getLogger(__name__)
 
 MODES = ("baseline", "entity")
 
+
 class IndexNotReadyError(RuntimeError):
     pass
 
 
 class SearchService:
+    """
+    Search service aligned 100% with Notebook v5:
+    - Baseline: From-scratch TF-IDF (IDF = log10(N / df)) + Cosine Similarity (S_text).
+    - Entity-Aware: Query Entity Coverage S_entity = |E_Q ∩ E_D| / |E_Q| over Neon `document_entities`.
+    - Hybrid Fusion: S_final = alpha * S_text + beta * S_entity (default alpha=0.8, beta=0.2).
+    - Fallback Behavior: When E_Q is empty, returns pure Baseline TF-IDF (S_entity = 0, S_final = S_text).
+    """
+
     def __init__(self, settings: Settings) -> None:
         self.settings = settings
         self.preprocessor = TextPreprocessor()
@@ -26,7 +38,7 @@ class SearchService:
     def try_load(self) -> bool:
         path = self.settings.artifact_path
         if not path.exists():
-            logger.warning("No index artifact at %s. Build it via the rebuild endpoint.", path)
+            logger.warning("No index artifact at %s. Build it via build_index.py or rebuild endpoint.", path)
             return False
         try:
             self.set_artifact(load_artifact(path))
@@ -36,7 +48,9 @@ class SearchService:
             return False
 
     def set_artifact(self, artifact: IndexArtifact) -> None:
-        self.artifact = artifact  # single reference swap: safe for concurrent readers
+        # Warm stem cache with indexed vocabulary just like Notebook v5
+        self.preprocessor.warm_cache(artifact.vocab)
+        self.artifact = artifact
 
     @property
     def ready(self) -> bool:
@@ -47,113 +61,127 @@ class SearchService:
             raise IndexNotReadyError("Index is not built yet.")
         return self.artifact
 
-    # ---- scoring ---------------------------------------------------------
-    def _text_scores(self, art: IndexArtifact, query: str) -> np.ndarray:
-        processed = self.preprocessor.preprocess_to_string(query)
-        q_vec = art.vectorizer.transform([processed])
-        if q_vec.nnz == 0:
-            return np.zeros(len(art.doc_ids))
-        return cosine_similarity(q_vec, art.tfidf_matrix).ravel()
+    # ---- scoring (100% identical to Notebook v5) -------------------------
+    def _text_scores(self, art: IndexArtifact, query: str) -> Tuple[Dict[str, float], str]:
+        q_tokens = self.preprocessor.preprocess(query)
+        q_clean = " ".join(q_tokens)
+        if not q_tokens:
+            return {did: 0.0 for did in art.doc_ids}, q_clean
 
-    def _entity_scores(self, art: IndexArtifact, counts: Dict[str, float]) -> np.ndarray:
-        q = np.zeros(len(art.entity_ids))
-        for eid, c in counts.items():
-            j = art.entity_col.get(eid)
-            if j is not None:
-                tf = 1.0 + math.log(c) if c >= 1.0 else c
-                q[j] = tf * art.entity_idf[j]
-        norm = np.linalg.norm(q)
-        if norm == 0:
-            return np.zeros(len(art.doc_ids))
-        return np.asarray(art.entity_matrix.dot(q / norm)).ravel()
+        q_vec = tfidf_vector(q_tokens, art.idf)
+        q_len = vector_length(q_vec)
+        if q_len == 0.0:
+            return {did: 0.0 for did in art.doc_ids}, q_clean
+
+        scores = {
+            did: float(
+                cosine_similarity(
+                    q_vec,
+                    art.doc_vectors[did],
+                    q_len=q_len,
+                    d_len=art.doc_vector_lengths[did],
+                )
+            )
+            for did in art.doc_ids
+        }
+        return scores, q_clean
 
     def _score(
         self, art: IndexArtifact, query: str, mode: str, alpha: float, beta: float
-    ) -> Tuple[np.ndarray, np.ndarray, np.ndarray, Dict[str, float], bool]:
+    ) -> Tuple[List[Dict[str, Any]], List[Dict[str, Any]], str, bool]:
+        if mode == "entity_aware":
+            mode = "entity"
         if mode not in MODES:
             raise ValueError(f"mode must be one of {MODES}")
-        text = self._text_scores(art, query)
-        counts = art.entity_dictionary.count(query)
-        entity = np.zeros_like(text)
-        fallback = False
-        if mode == "baseline":
-            final = text
-        elif not counts:
-            final, fallback = text, True  # no recognised entity -> pure text retrieval
-        else:
-            if alpha == 0 and beta == 0:
-                raise ValueError("alpha and beta cannot both be zero.")
-            entity = self._entity_scores(art, counts)
-            final = alpha * text + beta * entity
-        return text, entity, final, counts, fallback
 
-    @staticmethod
-    def _ranked_indices(final: np.ndarray, top_k: Optional[int]) -> np.ndarray:
-        order = np.argsort(-final, kind="stable")
-        order = order[final[order] > 0]
-        return order if top_k is None else order[:top_k]
+        s_text_map, q_clean = self._text_scores(art, query)
+        recognized = art.entity_dictionary.detect_unique(query)
+        eq_ids = [e["entity_id"] for e in recognized]
+        fallback = (mode == "entity" and len(eq_ids) == 0)
+
+        if mode == "entity" and not fallback and alpha == 0 and beta == 0:
+            raise ValueError("alpha and beta cannot both be zero.")
+
+        scored_rows: List[Dict[str, Any]] = []
+        for idx, did in enumerate(art.doc_ids):
+            st = s_text_map[did]
+            doc_ents = art.doc_entity_counts.get(did, {})
+            matched_ids = [eid for eid in eq_ids if doc_ents.get(eid, 0) >= 1]
+
+            if mode == "baseline" or fallback:
+                se = 0.0
+                sf = st
+            else:
+                se = len(matched_ids) / float(len(eq_ids))
+                sf = alpha * st + beta * se
+
+            matched_names = [
+                art.entity_dictionary.entities[eid].name
+                for eid in matched_ids
+                if eid in art.entity_dictionary.entities
+            ]
+            scored_rows.append(
+                {
+                    "idx": idx,
+                    "doc_id": did,
+                    "score": float(sf),
+                    "text_score": float(st),
+                    "entity_score": float(se),
+                    "matched_entities": matched_names if (mode == "entity" and not fallback) else [],
+                }
+            )
+
+        # Exact deterministic tie-breaking identical to Notebook v5: (-S_final, doc_id)
+        scored_rows.sort(key=lambda r: (-r["score"], r["doc_id"]))
+        return scored_rows, recognized, q_clean, fallback
 
     # ---- public API ------------------------------------------------------
     def query_has_entities(self, query: str) -> bool:
-        return bool(self._require().entity_dictionary.count(query))
+        return bool(self._require().entity_dictionary.detect_unique(query))
 
     def rank(self, query: str, mode: str, alpha: float, beta: float) -> List[str]:
         art = self._require()
-        _, _, final, _, _ = self._score(art, query, mode, alpha, beta)
-        return [art.doc_ids[i] for i in self._ranked_indices(final, None)]
+        scored_rows, _, _, _ = self._score(art, query, mode, alpha, beta)
+        return [r["doc_id"] for r in scored_rows]
 
     def search(
-        self, query: str, mode: str = "entity", top_k: int = 10,
-        alpha: Optional[float] = None, beta: Optional[float] = None,
+        self,
+        query: str,
+        mode: str = "entity",
+        top_k: int = 10,
+        alpha: Optional[float] = None,
+        beta: Optional[float] = None,
     ) -> Dict[str, Any]:
         art = self._require()
-        alpha = self.settings.default_alpha if alpha is None else alpha
-        beta = self.settings.default_beta if beta is None else beta
-        text, entity, final, counts, fallback = self._score(art, query, mode, alpha, beta)
+        norm_mode = "entity" if mode == "entity_aware" else mode
+        a = self.settings.default_alpha if alpha is None else alpha
+        b = self.settings.default_beta if beta is None else beta
 
-        order = self._ranked_indices(final, top_k)
-        total = int((final > 0).sum())
-        dictionary = art.entity_dictionary
+        scored_rows, recognized, q_clean, fallback = self._score(art, query, norm_mode, a, b)
 
-        seen, recognized = set(), []
-        for m in dictionary.find_mentions(query):
-            if m.entity_id in seen:
-                continue
-            seen.add(m.entity_id)
-            info = dictionary.entities[m.entity_id]
-            recognized.append(
-                {
-                    "entity_id": info.entity_id,
-                    "name": info.name,
-                    "category": info.category,
-                    "matched_text": m.matched_text,
-                    "ambiguous": m.weight < 1.0,
-                }
-            )
+        positive_rows = [r for r in scored_rows if r["score"] > 0.0]
+        total = len(positive_rows)
 
-        results = []
-        for rank, i in enumerate(order, start=1):
-            matched = []
-            if mode == "entity" and counts:
-                for eid in counts:
-                    j = art.entity_col.get(eid)
-                    if j is not None and art.entity_matrix[i, j] > 0:
-                        matched.append(dictionary.entities[eid].name)
+        results: List[Dict[str, Any]] = []
+        for rank, row in enumerate(positive_rows[:top_k], start=1):
+            meta = art.doc_meta[row["idx"]]
             results.append(
                 {
-                    **art.doc_meta[i],
+                    **meta,
                     "rank": rank,
-                    "score": float(final[i]),
-                    "text_score": float(text[i]),
-                    "entity_score": float(entity[i]),
-                    "matched_entities": matched,
+                    "score": round(row["score"], 6),
+                    "text_score": round(row["text_score"], 6),
+                    "entity_score": round(row["entity_score"], 6),
+                    "matched_entities": row["matched_entities"],
                 }
             )
+
         return {
             "query": query,
-            "mode": mode,
-            "alpha": alpha if mode == "entity" else None,
-            "beta": beta if mode == "entity" else None,
+            "preprocessed_query": q_clean,
+            "mode": norm_mode,
+            "alpha": a if norm_mode == "entity" else None,
+            "beta": b if norm_mode == "entity" else None,
             "recognized_entities": recognized,
             "entity_fallback": fallback,
             "total": total,

@@ -1,5 +1,6 @@
 from __future__ import annotations
 import logging
+import os
 from contextlib import contextmanager
 from typing import Iterator, Optional
 import psycopg
@@ -16,10 +17,13 @@ def init_pool(settings: Settings) -> None:
     global _pool
     if _pool is not None:
         return
+    is_serverless = bool(os.environ.get("VERCEL"))
+    min_size = 0 if is_serverless else settings.db_pool_min_size
+    max_size = min(settings.db_pool_max_size, 3) if is_serverless else settings.db_pool_max_size
     _pool = ConnectionPool(
         conninfo=settings.conninfo,
-        min_size=settings.db_pool_min_size,
-        max_size=settings.db_pool_max_size,
+        min_size=min_size,
+        max_size=max_size,
         kwargs={
             "row_factory": dict_row,
             # Safe with Neon's PgBouncer pooler endpoint (-pooler)

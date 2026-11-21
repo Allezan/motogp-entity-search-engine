@@ -101,10 +101,10 @@ export default function ModeSelector({
 
       {/* Server-Rendered Collapsible IR Weight Tray */}
       {showDetails && (
-        <div className="mt-2.5 flex flex-wrap items-center justify-between gap-3 rounded-sm border border-white/12 bg-[#141419]/95 px-3.5 py-2.5">
-          <div className="flex flex-wrap items-center gap-2">
-            <span className="font-mono text-[11px] uppercase tracking-wider text-zinc-400">
-              Bobot Hybrid:
+        <div className="mt-2.5 flex flex-wrap items-center justify-between gap-2 rounded-sm border border-white/12 bg-[#141419]/95 px-3 py-2">
+          <div className="flex flex-wrap items-center gap-1.5">
+            <span className="mr-1 font-mono text-[10px] uppercase tracking-wider text-zinc-400">
+              Bobot:
             </span>
             {WEIGHT_PRESETS.map((p) => {
               const active =
@@ -114,9 +114,9 @@ export default function ModeSelector({
                 return (
                   <span
                     key={p.label}
-                    className="cursor-not-allowed rounded-sm border border-white/10 px-2.5 py-1 font-mono text-[11px] text-zinc-500 opacity-50"
+                    className="cursor-not-allowed rounded-sm border border-white/10 px-2 py-1 font-mono text-[11px] text-zinc-500 opacity-50"
                   >
-                    {p.label} ({p.tag})
+                    {p.label}
                   </span>
                 );
               }
@@ -131,19 +131,20 @@ export default function ModeSelector({
                     beta: p.beta,
                     details: true,
                   })}
-                  className={`rounded-sm border px-2.5 py-1 font-mono text-[11px] transition-colors ${
+                  title={p.tag}
+                  className={`rounded-sm border px-2 py-1 font-mono text-[11px] transition-colors ${
                     active
                       ? "border-[#E10600] bg-[#E10600]/15 text-white"
                       : "border-white/15 text-zinc-300 hover:border-white/35 hover:text-white"
                   }`}
                 >
-                  {p.label} <span className="text-zinc-400">({p.tag})</span>
+                  {p.label}
                 </Link>
               );
             })}
           </div>
-          <span className="font-mono text-[11px] text-zinc-500">
-            Engine: v5 From-Scratch · Pure SSR
+          <span className="font-mono text-[10px] text-zinc-500">
+            v5 From-Scratch · SSR
           </span>
         </div>
       )}

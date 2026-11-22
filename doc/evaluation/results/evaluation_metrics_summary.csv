@@ -1,0 +1,15 @@
+query_subset,system,num_queries,Precision@5,Precision@10,Recall@5,Recall@10,MAP,MRR
+All Queries (Q1-Q8),Baseline (TF-IDF + Cosine Similarity),8,0.625,0.4625,0.5882,0.7842,0.7709,0.9375
+All Queries (Q1-Q8),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",8,0.65,0.525,0.5896,0.8506,0.8162,0.9375
+Entity-Based Queries (Q1-Q4),Baseline (TF-IDF + Cosine Similarity),4,0.7,0.55,0.5113,0.7737,0.7115,0.875
+Entity-Based Queries (Q1-Q4),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",4,0.75,0.675,0.514,0.9066,0.8021,0.875
+Subgroup: Entity Pendek (Q1-Q2),Baseline (TF-IDF + Cosine Similarity),2,0.6,0.5,0.4154,0.6308,0.6128,0.75
+Subgroup: Entity Pendek (Q1-Q2),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",2,0.8,0.75,0.4923,0.8846,0.7602,0.75
+Subgroup: Entity Panjang (Q3-Q4),Baseline (TF-IDF + Cosine Similarity),2,0.8,0.6,0.6071,0.9167,0.8102,1.0
+Subgroup: Entity Panjang (Q3-Q4),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",2,0.7,0.6,0.5357,0.9286,0.844,1.0
+Non-Entity Queries / Fallback (Q5-Q8),Baseline (TF-IDF + Cosine Similarity),4,0.55,0.375,0.6652,0.7946,0.8302,1.0
+Non-Entity Queries / Fallback (Q5-Q8),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",4,0.55,0.375,0.6652,0.7946,0.8302,1.0
+Subgroup: Non-Entity Pendek (Q5-Q6),Baseline (TF-IDF + Cosine Similarity),2,0.3,0.2,0.6429,0.7143,0.7521,1.0
+Subgroup: Non-Entity Pendek (Q5-Q6),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",2,0.3,0.2,0.6429,0.7143,0.7521,1.0
+Subgroup: Non-Entity Panjang (Q7-Q8),Baseline (TF-IDF + Cosine Similarity),2,0.8,0.55,0.6875,0.875,0.9083,1.0
+Subgroup: Non-Entity Panjang (Q7-Q8),"Proposed (TF-IDF + Entity-Aware, a=0.8, b=0.2)",2,0.8,0.55,0.6875,0.875,0.9083,1.0

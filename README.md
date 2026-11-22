@@ -120,28 +120,33 @@ Curated corpus of **60 MotoGP news articles** from three Indonesian publishers:
 
 ## Evaluation Results
 
-Evaluated on **12 manually relevance-judged queries (`Q01`–`Q12`)** covering alias/nickname queries, canonical multi-entity queries, and non-entity fallback queries. The production FastAPI engine achieves **12/12 exact parity** with the experimental `v5` evaluation notebook.
+Evaluated on **8 human-judged test queries (`Q1`–`Q8`)** spanning 4 balanced query types (**Entity Pendek**, **Entity Panjang**, **Non-Entity Pendek**, **Non-Entity Panjang**), using **TREC Depth-15 Pooling** (`Top-15 Baseline ∪ Top-15 Entity-Aware`, `138` unique query–document pairs) assessed by **2 independent human judges (`Dwimas`, `Marshall`) + 1 validator (`Ale`)** and reproduced via [`backend/scripts/run_human_evaluation.py`](backend/scripts/run_human_evaluation.py).
 
 ### 1. Entity Recognition Validation (12 Gold Standard Articles)
 
 - **True Positives:** `118` | **False Positives:** `0` | **False Negatives:** `0`
 - **Micro-Precision:** `1.0000` | **Micro-Recall:** `1.0000` | **Micro-F1:** `1.0000`
 
-### 2. Document Retrieval Comparison ($\alpha = 0.8,\ \beta = 0.2$)
+### 2. Inter-Annotator Agreement (Cohen's Kappa)
 
-| Query Group                                  | System                      | Precision@5  |       Recall@10        |          MAP           |
-| :------------------------------------------- | :-------------------------- | :----------: | :--------------------: | :--------------------: |
-| **All Queries (`Q01`–`Q12`)**                | Baseline (TF-IDF)           |   `0.5833`   |        `0.8417`        |        `0.8046`        |
-|                                              | **Proposed (Entity-Aware)** | **`0.6167`** | **`0.9236` (+8.19%)**  | **`0.8586` (+5.40%)**  |
-| **Entity-Based (`Q01`–`Q09`)**               | Baseline (TF-IDF)           |   `0.6889`   |        `0.7889`        |        `0.7858`        |
-|                                              | **Proposed (Entity-Aware)** | **`0.7333`** | **`0.8981` (+10.92%)** | **`0.8578` (+7.20%)**  |
-| **Subgroup: Alias / Nickname (`Q01`–`Q04`)** | Baseline (TF-IDF)           |   `0.5500`   |        `0.7208`        |        `0.6841`        |
-|                                              | **Proposed (Entity-Aware)** | **`0.6000`** | **`0.8750` (+15.42%)** | **`0.8161` (+13.20%)** |
-| **Subgroup: Canonical Entity (`Q05`–`Q09`)** | Baseline (TF-IDF)           |   `0.8000`   |        `0.8433`        |        `0.8672`        |
-|                                              | **Proposed (Entity-Aware)** | **`0.8400`** | **`0.9167` (+7.34%)**  | **`0.8912` (+2.40%)**  |
-| **Non-Entity / Fallback (`Q10`–`Q12`)**      | Baseline & Proposed         |   `0.2667`   |        `1.0000`        | `0.8611` _(Identical)_ |
+- **All Sheet Judgements ($N = 240$):** Observed agreement `87.08%` (`209/240`), **$\kappa = 0.7288$** (*Substantial Agreement*, Landis & Koch)
+- **Deduplicated Union Pool ($N = 138$):** Observed agreement `86.96%` (`120/138`), **$\kappa = 0.7225$** (*Substantial Agreement*)
 
-Full experiment CSV exports are stored in [`doc/Experiment-Result/v5_result/`](doc/Experiment-Result/v5_result/).
+### 3. Document Retrieval Comparison ($\alpha = 0.8,\ \beta = 0.2$)
+
+| Query Group                            | System                      | Precision@5  | Precision@10 |       Recall@10        |          MAP           |   MRR    |
+| :------------------------------------- | :-------------------------- | :----------: | :----------: | :--------------------: | :--------------------: | :------: |
+| **All Queries (`Q1`–`Q8`)**            | Baseline (TF-IDF)           |   `0.6250`   |   `0.4625`   |        `0.7842`        |        `0.7709`        | `0.9375` |
+|                                        | **Proposed (Entity-Aware)** | **`0.6500`** | **`0.5250`** | **`0.8506` (+6.64%)**  | **`0.8162` (+4.53%)**  | `0.9375` |
+| **Entity-Based (`Q1`–`Q4`)**           | Baseline (TF-IDF)           |   `0.7000`   |   `0.5500`   |        `0.7737`        |        `0.7115`        | `0.8750` |
+|                                        | **Proposed (Entity-Aware)** | **`0.7500`** | **`0.6750`** | **`0.9066` (+13.29%)** | **`0.8021` (+9.06%)**  | `0.8750` |
+| **Subgroup: Entity Pendek (`Q1`–`Q2`)**| Baseline (TF-IDF)           |   `0.6000`   |   `0.5000`   |        `0.6308`        |        `0.6128`        | `0.7500` |
+|                                        | **Proposed (Entity-Aware)** | **`0.8000`** | **`0.7500`** | **`0.8846` (+25.38%)** | **`0.7602` (+14.74%)** | `0.7500` |
+| **Subgroup: Entity Panjang (`Q3`–`Q4`)**| Baseline (TF-IDF)          |   `0.8000`   |   `0.6000`   |        `0.9167`        |        `0.8102`        | `1.0000` |
+|                                        | **Proposed (Entity-Aware)** |   `0.7000`   |   `0.6000`   | **`0.9286` (+1.19%)**  | **`0.8440` (+3.38%)**  | `1.0000` |
+| **Non-Entity / Fallback (`Q5`–`Q8`)**  | Baseline & Proposed         |   `0.5500`   |   `0.3750`   |        `0.7946`        | `0.8302` _(Identical)_ | `1.0000` |
+
+Human relevance judgements and full CSV evaluation outputs (`cohens_kappa_report.csv`, `evaluation_metrics_summary.csv`, `evaluation_metrics_per_query.csv`, `ranking_comparison_baseline_vs_entity_aware.csv`, `alpha_beta_sensitivity.csv`) are stored in [`doc/evaluation/results/`](doc/evaluation/results/).
 
 ---
 
@@ -177,7 +182,7 @@ motogp-entity-search-engine/
 │   │   └── schemas.py      # Pydantic response models
 │   ├── artifacts/
 │   │   └── index.joblib    # Prebuilt v5 from-scratch index artifact
-│   ├── scripts/            # build_index.py
+│   ├── scripts/            # build_index.py, run_human_evaluation.py
 │   ├── requirements.txt
 │   └── .env.example
 ├── frontend/
@@ -193,7 +198,8 @@ motogp-entity-search-engine/
 │   └── .env.local.example
 ├── doc/
 │   ├── corpus(combined)/       # Original Excel corpus
-│   ├── Experiment-Result/      # v2, v3, v4, and v5 evaluation CSV outputs
+│   ├── evaluation/             # Human relevance judgements (Q1-Q8) & official evaluation CSVs
+│   ├── Experiment-Result/      # Historical Colab experiment CSV outputs (v2-v5)
 │   └── preview/                # README preview screenshots
 └── README.md
 ```
